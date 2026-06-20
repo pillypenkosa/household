@@ -168,21 +168,19 @@ const arrList = [
 		{ k: 'Ціна' 		, v: '38000 грн' 		, },
 	],
 },
-
-
-
 {
-	id: '20251010_m_tac', title: 'M-Tac', type: 'Підштанніки', cat: { warstore: 1, },
+	id: '20251010_m_tac', date: '2025-11-06', title: 'Підштанніки', descr: 'M-Tac', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Підштанніки' 		, v: 'M-Tac' 							, },
 		{ k: 'Колір' 			, v: 'зелені' 							, },
 		{ k: 'Магазин' 			, v: 'UArm' 							, gps: 'https://maps.app.goo.gl/Gvu2N6Tdd3t5oigb6', }, 
+		{ backspace: true },
+		
 		{ k: 'Ціна' 			, v: '2100 грн = 2 шт ( по 1050 грн )' 	, },
-		{ k: 'Дата' 			, v: '2025-11-06' 						, },
 	],
 },
 {
-	id: '20251031_hoco', title: 'Hoco 65 W', type: 'Пристрій зарядний', cat: { electronics: 1, },
+	id: '20251031_hoco', date: '2025-10-31', title: 'Пристрій зарядний', descr: 'Hoco 65 W', cat: { electronics: 1, },
 	keyval: [
 		
 		{ k: 'Пристрій зарядний' 	, v: 'Hoco 65 W' 	, },
@@ -197,26 +195,22 @@ const arrList = [
 		{ k: 'Колір' 		, v: 'жовтий' 							, },
 		{ backspace: true, },
 
-		{ k: 'Продавець' 	, v: 'Vodafon' 					, gps: 'https://maps.app.goo.gl/LXe5XDmNFuaugXv38', },
+		{ k: 'Магазин' 		, v: 'Vodafon' 					, gps: 'https://maps.app.goo.gl/LXe5XDmNFuaugXv38', },
 		{ k: 'Ціна' 		, v: '900 грн' 					, },
-		{ k: 'Дата' 		, v: '2025-10-31' 				, },
 	],
 },
-
-
 {
-	id: '20251023_powerbank', title: 'Hoco DB03 Max', type: 'PowerBank', cat: { electronics: 1, },
+	id: '20251023_powerbank', date: '2025-10-23', title: 'Hoco DB03 Max', type: 'PowerBank', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'PowerBank' 			, v: 'Hoco' 						, },
 		{ k: 'Модель' 				, v: 'DB03 Max' 					, },
-
 		{ k: '' 					, v: '100000 mAh' 					, },
 		{ k: '' 					, v: '54000 mAh' 					, },
 		{ k: '' 					, v: '65 W' 						, },
 		{ k: '' 					, v: '22.5 W' 						, },
 		{ k: '' 					, v: 'QC 3.0' 						, },
 		{ k: '' 					, v: '370 W/h' 						, },
-
+		{ backspace: true, },
 
 		{ k: 'Магазин' 				, v: 'Rozetka' 						, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
 		{ k: 'Товар' 				, v: 'rozetka.com.ua' 				, href: 'https://rozetka.com.ua/ua/476905469/p476905469/', },
@@ -224,13 +218,13 @@ const arrList = [
 		{ k: 'Відправник' 			, v: 'Якименко Наталія Віталіївна' 	, },
 		{ k: '' 					, v: 'м. Одеса, вул. Сахарова, 1Б' 	, },
 		{ k: '' 					, v: '+380660705725' 				, },
+		{ backspace: true, },
 
-		{ k: 'Дата' 				, v: '2025-10-23' 					, },
 		{ k: 'Ціна' 				, v: '4300 грн' 					, },
 	],
 },
 {
-	id: '20251022_hoco', title: 'Hoco M83', type: 'Навушники', cat: { electronics: 1, },
+	id: '20251022_hoco', date: '2025-10-23', title: 'Навушники', descr: 'Hoco M83', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Навушники' 		, v: 'Hoco' 				, },
 		{ k: 'Модель' 			, v: 'M83' 					, },
@@ -238,33 +232,35 @@ const arrList = [
 		{ k: '' 				, v: 'дротові' 				, },
 		{ k: '' 				, v: 'вакуумні' 			, },
 		{ k: '' 				, v: 'з мікрофоном' 		, },
-		{ k: 'Магазин' 			, v: 'Rozetka' 				, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
+		{ backspace: true, },
+
+		{ k: 'e-Магазин' 			, v: 'Rozetka' 			, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
 		{ k: 'Товар' 			, v: 'rozetka.com.ua' 		, href: 'https://rozetka.com.ua/ua/339972349/p339972349/', },
 		{ k: 'Gadget OFF' 		, v: 'rozetka.com.ua' 		, href: 'https://rozetka.com.ua/ua/seller/gadget-off/goods/', },
-		{ k: 'Дата' 			, v: '2025-10-23' 			, },
 		{ k: 'Ціна' 			, v: '230 грн' 				, },
 	],
 },
-
 {
-	id: '20251022_glass', title: 'Tempered Glass 0.3mm', type: 'Скло захисне', cat: { electronics: 1, },
+	id: '20251022_glass', date: '2025-10-22', title: 'Скло захисне', descr: 'Tempered Glass 0.3mm', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Скло захисне' 	, v: '' 							, },
 		{ k: 'Модель' 			, v: 'Tempered Glass 0.3 mm' 		, },
 		{ k: 'Призначення' 		, v: 'для телефона Samsung A26 5G' 	, },
 		{ k: 'Продавець' 		, v: 'vest.in.ua' 					, href: 'https://vest.in.ua/accessories-for-phones/plenki/zahisne-sklo-tempered-glass-03mm-dlya-samsung-galaxy-a26-5g' 	, },
-		{ k: 'Дата' 			, v: '2025-10-22' 					, },
+		{ backspace: true, },
+
 		{ k: 'Ціна' 			, v: '260 грн ( 2 шт по 130 грн )' 	, },
 	],
 },
 {
-	id: '20251010_knife', title: 'викидний', type: 'Ніж', cat: { warstore: 1, },
+	id: '20251010_knife', date: '2025-10-10', title: 'Ніж', descr: 'викидний', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Ніж' 				, v: 'викидний' 		, },
 		{ k: 'Колір' 			, v: 'чорний' 			, },
 		{ k: 'Продавець' 		, v: 'Військторг' 		, gps: 'https://maps.app.goo.gl/aL6BWYRp46y8K6ow8', }, 
+		{ backspace: true, },
+		
 		{ k: 'Ціна' 			, v: '200 грн' 			, },
-		{ k: 'Дата' 			, v: '2025-10-10' 		, },
 	],
 },
 {
@@ -288,14 +284,14 @@ const arrList = [
 	],
 },
 {
-	id: '20250812_f19_tws', title: 'Bluetooth F19 TWS', type: 'Гарнітура', cat: { electronics: 1, },
+	id: '20250812_f19_tws', date: '2025-08-12', title: 'Гарнітура Bluetooth', descr: 'F19 TWS', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Bluetooth гарнітура' 	, v: 'F19 TWS' 			, },
 		{ k: 'Модель' 				, v: '87344006' 		, },
 		{ k: 'Акумулятор' 			, v: '350 мА*г' 		, },
-
 		{ k: 'e-Магазин' 			, v: 'Rozetka' 			, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
-		{ k: 'Дата' 				, v: '2025-08-12' 		, },
+		{ backspace: true, },
+
 		{ k: 'Ціна' 				, v: '500 грн' 			, },
 		{ k: 'Rozetka' 				, v: 'rozetka.com.ua' 	, href: 'https://rozetka.com.ua/ua/441711929/p441711929/', },
 	],
@@ -312,7 +308,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250730_wuw', title: 'WUW Fast Charger 48w', type: 'Пристрій зарядний', cat: { electronics: 1, },
+	id: '20250730_wuw', date: '2025-07-30', title: 'Пристрій зарядний', descr: 'WUW Fast Charger 48w', cat: { electronics: 1, },
 	keyval: [
 		
 		{ k: 'Пристрій зарядний' 	, v: 'WUW Fast Charger 48w' 	, },
@@ -328,11 +324,10 @@ const arrList = [
 
 		{ k: 'Магазин' 				, v: 'Комп\'ютерний всесвіт' 	, gps: 'https://maps.app.goo.gl/zeagAPopSe8TQ8oX6', },
 		{ k: 'Ціна' 				, v: '145 грн' 					, },
-		{ k: 'Дата' 				, v: '2025-07-30' 				, },
 	],
 },
 {
-	id: '20250704_samsung', title: 'Samsung A26', type: 'Телефон', cat: { electronics: 1, }, 
+	id: '20250704_samsung', date: '2025-07-04', title: 'Телефон', descr: 'Samsung A26', cat: { electronics: 1, }, 
 	keyval: [
 		
 		{ k: 'Телефон' 			, v: 'Samsung Galaxy A26 5G' 	, },
@@ -340,15 +335,16 @@ const arrList = [
 		{ k: 's/n' 				, v: 'R5CY50LX9QL' 				, },
 		{ k: 'IMEI 1' 			, v: '351728903444736' 			, },
 		{ k: 'IMEI 2' 			, v: '352285783444731' 			, },
-		{ k: 'e-Магазин' 		, v: 'Rozetka' 					, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
+		{ backspace: true, },
+		
+		{ k: 'Магазин' 			, v: 'Rozetka' 					, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
+		{ k: 'e-Магазин' 		, v: 'rozetka.com.ua' 			, href: 'https://rozetka.com.ua/ua/samsung-sm-a266bzkceuc/p484698759/', },
+		{ k: 'Приклад' 			, v: 'elmir.ua' 				, href: 'https://elmir.ua/ua/cell_phones/mobile-phone-samsung-galaxy-a26-5g-8-256gb-black-sm-a266bzkceuc.html', },
 		{ k: 'Ціна' 			, v: '12000 грн' 				, },
-		{ k: 'Дата' 			, v: '2025-07-04' 				, },
-		{ k: 'Rozetka' 			, v: 'rozetka.com.ua' 			, href: 'https://rozetka.com.ua/ua/samsung-sm-a266bzkceuc/p484698759/', },
-		{ k: 'Elmir' 			, v: 'elmir.ua' 				, href: 'https://elmir.ua/ua/cell_phones/mobile-phone-samsung-galaxy-a26-5g-8-256gb-black-sm-a266bzkceuc.html', },
 	],
 },
 {
-	id: '20250620_samsung', title: 'Samsung', type: 'Планшет', cat: { electronics: 1, }, 
+	id: '20250620_samsung', date: '2025-06-20', title: 'Планшет', descr: 'Samsung', cat: { electronics: 1, }, 
 	keyval: [
 		
 		{ k: 'планшет' 			, v: 'Samsung Galaxy Tab A9+' 	, },
@@ -365,24 +361,20 @@ const arrList = [
 		{ backspace: true },
 
 		{ k: 'e-Магазин' 		, v: 'Rozetka' 					, gps: 'https://maps.app.goo.gl/6KWWmiohW8VsZS4x5', },
-		{ k: 'Ціна' 			, v: '8600 грн' 				, },
-		{ k: 'Дата' 			, v: '2025-06-20' 				, },
-		{ backspace: true },
-
 		{ k: 'Rozetka' 			, v: 'rozetka.com.ua' 			, href: 'https://rozetka.com.ua/ua/samsung-sm-x210nzaesek/p412084374/', },		
+		{ k: 'Ціна' 			, v: '8600 грн' 				, },
 	],
 },
 {
-	id: 'jbl_720bt', title: 'JBL Tune 720 BT', type: 'Навушники', cat: { electronics: 1, },
+	id: '20250620_jbl', date: '2025-06-20', title: 'Навушники', descr: 'JBL Tune 720 BT', cat: { electronics: 1, },
 	keyval: [
-		
 		{ k: 'Навушники' 		, v: 'JBL Tune 720 BT' 	, },
 		{ k: 'Модель' 			, v: 'JBLT720BTBLK' 		, },
 		{ backspace: true },
 
 		{ k: 'Магазин' 			, v: 'Vodafon' 				, gps: 'https://maps.app.goo.gl/nWUMVZoFYBLeWAv26', },
-		{ k: 'Ціна' 			, v: '3300 грн' 			, },
 		{ k: 'Rozetka' 			, v: 'rozetka.com.ua' 		, href: 'https://rozetka.com.ua/ua/jbl_jblt720btblk/p369896661/?gad_source=1&gad_campaignid=17661883199&gbraid=0AAAAADk6sCd3iLfBACBL6OS4CptGJqbqG&gclid=EAIaIQobChMIqezusOPnjgMVpg-iAx3DNALYEAQYBiABEgKnCvD_BwE', },
+		{ k: 'Ціна' 			, v: '3300 грн' 			, },
 	],
 },
 {
@@ -397,25 +389,25 @@ const arrList = [
 	],
 },
 {
-	id: '20250500_sleep_bag', title: 'спальний', type: 'Мішок', cat: { warstore: 1, },
+	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Мішок спальний', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 	, v: 'полегшений' 	, },
 		{ k: 'Магазин' 			, v: 'Військторг' 	, gps: 'https://maps.app.goo.gl/FffAsnj8rrf78RjU6', }, 
+		{ backspace: true },
+
 		{ k: 'Ціна' 			, v: '1800 грн' 	, },
-		{ k: 'Дата' 			, v: '~ 2025-05' 	, },
 	],
 },
 {
-	id: '20250500_flashlight', title: 'тактичний', type: 'Ліхтарик', cat: { electronics: 1, warstore: 1, },
+	id: '20250500_flashlight', date: '2025-05-00', title: 'Ліхтарик тактичний', cat: { electronics: 1, warstore: 1, },
 	keyval: [
 		{ k: 'Ліхтарик' 		, v: 'тактичний' 	, },
 		{ k: 'Призначення' 		, v: 'на шолом' 	, },
 		{ k: 'Магазин' 			, v: 'Військторг' 	, gps: 'https://maps.app.goo.gl/YyobRpykjZj4AZQ47', }, 
-		{ k: 'Дата' 			, v: '~ 2025-05' 	, },
 	],
 },
 {
-	id: '20250526_videx', title: 'Videx H189', type: 'Ліхтарик налобний', cat: { electronics: 1, warstore: 1, },
+	id: '20250526_videx', date: '2025-05-26', title: 'Ліхтарик налобний', descr: 'Videx H189', cat: { electronics: 1, warstore: 1, },
 	keyval: [
 		{ k: 'Ліхтарик налобний' 	, v: 'Videx' 			, },
 		{ k: 'Модель' 				, v: 'VLF-H189' 		, },
@@ -426,39 +418,42 @@ const arrList = [
 
 		{ k: 'Магазин' 				, v: 'Uarm' 			, gps: 'https://maps.app.goo.gl/Hg9bKgcMGDJe7juA9', }, 
 		
+		{ backspace: true },
 		{ k: 'Ціна' 				, v: '1100 грн' 		, },
-		{ k: 'Дата' 				, v: '2025-05-26' 		, },
 	],
 },
 {
-	id: '20240000_vurgun', title: 'Vurgun', type: 'Кайданки шарнірні', cat: { warstore: 1, },
+	id: '20240000_vurgun', date: '2024-00-00', title: 'Кайданки шарнірні', descr: 'Vurgun', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Кайданки шарнірні' 	, v: 'Vurgun' 			, },
 		{ k: 'Продавець' 			, v: 'Patch KH' 		, gps: 'https://maps.app.goo.gl/Rsv7hPdSSJngQK2q6', }, // Харків, вул. Ярославська, 2/2
-		{ k: 'Дата' 				, v: '~ 2024-09..12' 	, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 				, v: '900 грн' 			, },
 	],
 },
 {
-	id: '20240600_strike_face', title: 'Strike Face', type: 'Бронеплити', cat: { warstore: 1, },
+	id: '20240600_strike_face', date: '2024-06-00', title: 'Бронеплити', descr: 'Strike Face', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Бронеплити' 		, v: 'Strike Face' 			, },
 		{ k: 'Продавець' 		, v: 'Patch KH' 			, gps: 'https://maps.app.goo.gl/Rsv7hPdSSJngQK2q6', }, // Харків, вул. Ярославська, 2/2
-		{ k: 'Дата' 			, v: '~ 2024-06' 			, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 			, v: '16000 грн за 2 шт.' 	, },
 	],
 },
 {
-	id: '20240600_plate_carrier', title: '', type: 'Плитоноска', cat: { warstore: 1, },
+	id: '20240600_plate_carrier', date: '2024-06-00', title: 'Плитоноска', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Плитоноска' 		, v: '' 			, },
 		{ k: 'Продавець' 		, v: 'Patch KH' 	, gps: 'https://maps.app.goo.gl/Rsv7hPdSSJngQK2q6', }, // Харків, вул. Ярославська, 2/2
-		{ k: 'Дата' 			, v: '~ 2024-06' 	, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 			, v: '4000 грн' 	, },
 	],
 },
 {
-	id: '20250505_samsung', title: 'Samsung A042', type: 'Телефон', cat: { electronics: 1, }, 
+	id: '20250505_samsung', date: '2024-05-05', title: 'Телефон', descr: 'Samsung A042', cat: { electronics: 1, }, 
 	keyval: [
 		{ k: 'Телефон' 		, v: 'Samsung Galaxy A042' 	, },
 		{ k: 'Модель' 		, v: 'SM-A042FLBHSEK' 		, },
@@ -472,8 +467,9 @@ const arrList = [
 		{ k: 'Акумулятор' 	, v: '5000  mAh' 			, },
 		{ k: 'Продавець' 	, v: 'ElMir' 				, },
 		{ k: 'Подарунок' 	, v: 'для мами )))' 		, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 		, v: '3400 грн' 			, },
-		{ k: 'Дата' 		, v: '2024-05-05' 			, },
 		{ k: 'Elmir' 		, v: 'elmir.ua' 			, href: 'https://elmir.ua/ua/cell_phones/mobile_phone_samsung_a042_galaxy_a04e_3_64gb_light_blue_sm-a042flbhsek.html', },
 	],
 },
@@ -542,11 +538,12 @@ const arrList = [
 	],
 },
 {
-	id: '20230506_jbl', title: 'JBL', type: 'Колонка Bluetooth', cat: { electronics: 1, },
+	id: '20230506_jbl', date: '2023-05-06', title: 'Колонка Bluetooth', descr: 'JBL', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Bluetooth колонка' 	, v: 'JBL Xtreme Big' 	, },
 		{ k: 'Продавець' 			, v: 'prom.ua' 			, href: 'https://kharkov.prom.ua/ua/p795971389-kolonka-xtreme-big.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
-		{ k: 'Дата' 				, v: '2023-05-06' 		, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 				, v: '665 грн' 			, },
 	],
 },
@@ -597,7 +594,7 @@ const arrList = [
 	keyval: [
 		{ k: 'Тепловентилятор' 	, v: 'Crownberg' 	, },
 		{ k: 'Модель' 			, v: 'CB-7747' 		, },
-		{ k: 'Продавець' 		, v: 'prom.ua' 		, href: 'https://prom.ua/ua/p1617063396-teploventilyator-obogrevatel-dujka.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
+		{ k: 'е-Магазин' 		, v: 'prom.ua' 		, href: 'https://prom.ua/ua/p1617063396-teploventilyator-obogrevatel-dujka.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
 		{ backspace: true },
 
 		{ k: 'Ціна' 			, v: '440 грн' 		, },
@@ -608,7 +605,7 @@ const arrList = [
 	keyval: [
 		{ k: 'Тепловентилятор' 	, v: 'Crownberg' 	, },
 		{ k: 'Модель' 			, v: 'CB-7746' 		, },
-		{ k: 'Продавець' 		, v: 'prom.ua' 		, href: 'https://prom.ua/ua/p1617063394-teploventilyator-obogrevatel-dujka.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
+		{ k: 'е-Магазин' 		, v: 'prom.ua' 		, href: 'https://prom.ua/ua/p1617063394-teploventilyator-obogrevatel-dujka.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
 		{ k: 'Дата' 			, v: '2022-12-03' 	, },
 		{ backspace: true },
 
@@ -621,18 +618,19 @@ const arrList = [
 		{ k: 'Насос циркуляційний' 	, v: 'Wilo' 					, },
 		{ k: 'Модель' 				, v: 'Star-RS 25/6 (4032956)' 	, },
 		{ k: 'Призначення' 			, v: 'для циркуляції води в батареях' 	, },
-		{ k: 'Продавець' 			, v: 'rozetka.com.ua' 			, href: 'https://rozetka.com.ua/wilo_star_rs_25_6_4032956/p5503491/characteristics/', },
+		{ k: 'е-Магазин' 			, v: 'rozetka.com.ua' 			, href: 'https://rozetka.com.ua/wilo_star_rs_25_6_4032956/p5503491/characteristics/', },
 		{ backspace: true },
 
 		{ k: 'Ціна' 				, v: '3100 грн' 				, },
 	],
 },
 {
-	id: '20221118_bag', title: 'спальний', type: 'Мішок', cat: { warstore: 1, },
+	id: '20221118_bag', date: '2022-11-18', title: 'Мішок спальний', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 	, v: '' 				, },
-		{ k: 'Продавець' 		, v: 'вул.Ярославська' 	, gps: 'https://maps.app.goo.gl/HiesR2HpwXe2RxHS9' , },
-		{ k: 'Дата' 			, v: '2022-11-18' 		, },
+		{ k: 'Магазин' 			, v: 'вул.Ярославська' 	, gps: 'https://maps.app.goo.gl/HiesR2HpwXe2RxHS9' , },
+		{ backspace: true },
+
 		{ k: 'Ціна' 			, v: '1850 грн' 		, },
 	],
 },
@@ -642,7 +640,7 @@ const arrList = [
 		{ k: 'Насос' 		, v: 'Euroaqua JET 100' 		, },
 		{ k: 'Код' 			, v: '25117002-01' 				, },
 		{ k: 'Призначення' 	, v: 'для насосної станції' 	, },
-		{ k: 'Продавець' 	, v: 'АкваЕра' 					, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
+		{ k: 'Магазин' 		, v: 'АкваЕра' 					, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
 		{ k: 'Ціна' 		, v: '3200 грн' 				, },
 	],
 },
@@ -650,7 +648,7 @@ const arrList = [
 	id: '20220605_hydro', date: '2022-06-05', title: 'нс: Гідроакумулятор', cat: { hh_techno: 1, },
 	keyval: [
 		{ k: 'Гідроакумулятор' 	, v: 'Euroaqua' 		, },
-		{ k: 'Продавець' 		, v: 'АкваЕра' 			, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
+		{ k: 'Магазин' 			, v: 'АкваЕра' 			, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
 		{ k: 'Ціна' 			, v: '6280 грн' 		, },
 	],
 },
@@ -659,21 +657,21 @@ const arrList = [
 	keyval: [
 		{ k: 'Реле тиску' 	, v: 'Italtechnica' 	, },
 		{ k: 'аркування' 	, v: 'PM/5G' 			, },
-		{ k: 'Продавець' 	, v: 'АкваЕра' 			, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
+		{ k: 'Магазин' 		, v: 'АкваЕра' 			, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
 	],
 },
 {
 	id: '20220605_manometr', date: '2022-06-05', title: 'нс: Манометр', cat: { hh_techno: 1, },
 	keyval: [
 		{ k: 'Манометр' 	, v: '' 			, },
-		{ k: 'Продавець' 	, v: 'АкваЕра' 		, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
+		{ k: 'Магазин' 		, v: 'АкваЕра' 		, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
 	],
 },
 {
 	id: '20220605_aquaera', date: '2022-06-05', title: 'нс: П\'ятерник', cat: { hh_techno: 1, },
 	keyval: [
 		{ k: 'П\'ятерник' 	, v: '' 			, },
-		{ k: 'Продавець' 	, v: 'АкваЕра' 		, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
+		{ k: 'Магазин' 		, v: 'АкваЕра' 		, gps: 'https://maps.app.goo.gl/DsbTDWofhoqkcQH4A', },
 	],
 },
 {
@@ -681,35 +679,37 @@ const arrList = [
 	keyval: [
 		{ k: 'Бак пластиковий' 	, v: 'Europlast' 	, },
 		{ k: 'Ємність' 			, v: '300 л' 		, },
-		{ k: 'Продавець' 		, v: 'Барабашово' 	, },
+		{ k: 'Ринок' 			, v: 'Барабашово' 	, },
 		{ backspace: true },
 
 		{ k: 'Ціна' 			, v: '2800 грн' 	, },
 	],
 },
 {
-	id: '20220520_pouch', title: 'для магазинів (чорний)', type: 'Підсумок', cat: { warstore: 1, },
+	id: '20220520_pouch', date: '2022-05-20', title: 'Підсумок для магазинів', descr: 'чорний', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Підсумок' 	, v: 'на чорний бронік' 	, },
 		{ k: 'Призначення' 	, v: 'для 3 магазинів АК' 	, },
-		{ k: 'Продавець' 	, v: 'Армійський' 			, gps: 'https://maps.app.goo.gl/tD2QEPDt9Zn2tAuF7', },
+		{ k: 'Магазин' 		, v: 'Армійський' 			, gps: 'https://maps.app.goo.gl/tD2QEPDt9Zn2tAuF7', },
 		{ k: 'Адреса' 		, v: 'вул. Ярославська, 4' 	,  },
-		{ k: 'Дата' 		, v: '2022-05-20' 			, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 		, v: '400 грн' 				, },
 	],
 },
 {
-	id: '20220520_balaclava', title: 'чорна', type: 'Балаклава', cat: { warstore: 1, },
+	id: '20220520_balaclava', date: '2022-05-20', title: 'Балаклава', descr: 'чорна', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Балаклава' 	, v: 'чорна' 					, },
 		{ k: 'Адреса' 		, v: 'вул. Ярославська, 2/2' 	, },
-		{ k: 'Продавець' 	, v: 'Гвардійський' 			, gps: 'https://maps.app.goo.gl/UQBEFi6KqfBG8PN9A', },
-		{ k: 'Дата' 		, v: '2022-05-20' 				, },
+		{ k: 'Магазин' 		, v: 'Гвардійський' 			, gps: 'https://maps.app.goo.gl/UQBEFi6KqfBG8PN9A', },
+		{ backspace: true },
+
 		{ k: 'Ціна' 		, v: '120 грн' 					, },
 	],
 },
 {
-	id: '20220520_xiaomi', title: 'Xiaomi Poco', type: 'Телефон', cat: { electronics: 1, },
+	id: '20220520_xiaomi', date: '2022-05-20', title: 'Xiaomi Poco', type: 'Телефон', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Телефон' 		, v: 'Xiaomi Poco' 				, },
 		{ k: 'Модель' 		, v: 'Poco M3 Pro 5G 4/64GB' 	, },
@@ -720,10 +720,10 @@ const arrList = [
 		{ k: 'RAM' 			, v: '4 GB' 					, },
 		{ k: 'Пам\'ять' 	, v: '64 GB' 					, },
 		{ k: 'Акумулятор' 	, v: '5000  mAh' 				, },
-
-		{ k: 'Продавець' 	, v: 'elmir.ua' 				, href: 'https://elmir.ua/cell_phones/mobile_phone_xiaomi_poco_m3_pro_5g_4_64gb_black_eu.html', },
+		{ k: 'Магазин' 		, v: 'elmir.ua' 				, href: 'https://elmir.ua/cell_phones/mobile_phone_xiaomi_poco_m3_pro_5g_4_64gb_black_eu.html', },
 		{ k: 'Подарунок' 	, v: 'для Вовки )))' 			, },
-		{ k: 'Дата' 		, v: '2022-05-20' 				, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 		, v: '7500 грн' 				, },
 	],
 },
@@ -750,16 +750,10 @@ const arrList = [
 		{ k: 'Ціна' 		, v: '1700 грн' 		, },
 	],
 },
-
-
-
-
-
 {
-	id: '20220515_powerbank', title: 'no name', type: 'PowerBank', cat: { electronics: 1, },
+	id: '20220515_powerbank', date: '2022-05-15', title: 'PowerBank', descr: '10000 no name', cat: { electronics: 1, },
 	keyval: [
-		{ k: 'Power Bank' 	, v: '' 				, },
-		{ k: '' 			, v: 'No Name' 			, },
+		{ k: 'Power Bank' 	, v: 'No Name' 			, },
 		{ k: 'Ємність' 		, v: '10000 mAh' 		, },
 		{ k: 'Продавець' 	, v: 'Павлюченко Ігор' 	, },
 		{ k: 'Дата' 		, v: '2022_05_15_2200' 	, },
@@ -786,21 +780,22 @@ const arrList = [
 	id: '20210000_dnipro_m', date: '2021-00-00', title: 'Апарат зварювальний', descr: 'Dnipro-M', cat: { tools: 1, },
 	keyval: [
 		{ k: 'Апарат зварювальний' 		, v: 'Dnipro-M' 		, },
-		{ k: 'Продавець' 				, v: 'Dnipro-M' 		, },
+		{ k: 'Магазин' 					, v: 'Dnipro-M' 		, },
 	],
 },
 {
-	id: '20200426_xiaomi_redmi_8a', title: 'Xiaomi Redmi 8A', type: 'Телефон', cat: { electronics: 1, }, 
+	id: '20200426_xiaomi', date: '2021-04-26', title: 'Телефон', descr: 'Xiaomi Redmi 8A', cat: { electronics: 1, }, 
 	keyval: [
 		{ k: 'Телефон' 			, v: 'Xiaomi Redmi 8A' 		, },
 		{ k: 'Модель' 			, v: 'M1908C3KG' 			, },
 		{ k: 'Процесор' 		, v: 'Qualcomm Snapdragon 439, 4 x 1.95 ГГц + 4 x 1.45 ГГц' 			, },
 		{ k: 'ОЗУ' 				, v: '2 Гб' 				, },
-		{ k: 'Продавець' 		, v: 'Алло' 				, },
-		{ k: 'Ціна' 			, v: '3000 грн' 			, },
-		{ k: 'Дата' 			, v: '2020-04-26' 			, },
+		{ backspace: true, },
+
+		{ k: 'Магазин' 			, v: 'Алло' 				, },
 		{ k: 'Allo' 			, v: 'allo.ua' 				, href: 'https://allo.ua/ua/products/mobile/xiaomi-redmi-8a-2-32-midnight-black.html?srsltid=AfmBOooXfbqmdQF3x71KBS5MKa4FLh3iMliz4iDfhl1di1s0gW3J6uARl', },	
 		{ k: 'Цитрус' 			, v: 'ctrs.com.ua' 			, href: 'https://www.ctrs.com.ua/ru/smartfony/redmi-8a-232gb-midnight-black-xiaomi-ua-652981.html', },
+		{ k: 'Ціна' 			, v: '3000 грн' 			, },
 	],
 },
 {
@@ -852,8 +847,9 @@ const arrList = [
 	keyval: [
 		{ k: 'Сінтезатор' 	, v: 'Casio' 		, },
 		{ k: 'Модель' 		, v: 'CDP 100' 		, },
-		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 	, },
-		{ k: 'Дата' 		, v: '2007-11-21' 	, },
+		{ k: 'Магазин' 		, v: 'Атланта-Шоу' 	, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 		, v: '3510 грн' 	, },
 	],
 },
@@ -865,7 +861,7 @@ const arrList = [
 	],
 },
 {
-	id: 'jts_js_1e', title: 'JTS', type: 'Мікрофон', cat: { electronics: 1, },
+	id: 'jts_js_1e', date: '2004-00-00', title: 'Мікрофон', descr: 'JTS', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Мікрофон' 	, v: 'JTS' 			, },
 		{ k: 'Модель' 		, v: 'JS-1E' 		, },
@@ -873,11 +869,14 @@ const arrList = [
 	],
 },
 {
-	id: 'akg_k240', title: 'AKG K240', type: 'Навушники', cat: { electronics: 1, },
+	id: 'akg_k240', date: '2004-00-00', title: 'AKG K240', type: 'Навушники', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Навушники' 	, v: 'AKG' 		, },
 		{ k: 'Модель' 		, v: 'K240 Studio' 	, },
 		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 	, },
+		{ backspace: true },
+
+		{ k: 'Ціна' 		, v: '~ 820-840 грн' 	, },
 	],
 },
 {
@@ -902,12 +901,13 @@ const arrList = [
 	],
 },
 {
-	id: '20040705_lg', title: 'LG', type: 'Магнітофон/CD/Radio', cat: { electronics: 1, },
+	id: '20040705_lg', date: '2004-07-05', title: 'Магнітофон/CD/Radio', descr: 'LG', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Магнітофон' 	, v: 'LG' 			, },
 		{ k: 'Модель' 		, v: 'LPC-LM735X' 	, },
-		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 	, },
-		{ k: 'Дата' 		, v: '2004-07-05' 	, },
+		{ backspace: true },
+
+		{ k: 'Ціна' 		, v: '625 грн' 		, },
 	],
 },
 {
@@ -915,13 +915,12 @@ const arrList = [
 	keyval: [
 		{ k: 'Холодильник' 	, v: 'Beko' 				, },
 		{ k: 'Модель' 		, v: 'можливо RCH 3750' 	, },
-		{ k: 's/n' 	, v: '051 029 7305' 				, },
+		{ k: 's/n' 			, v: '051 029 7305' 				, },
 
 		{ k: 'Напруга' 			, v: '230 В, 50 Гц' 	, },
 		{ k: 'Потужність' 		, v: '100 Вт' 			, },
 		{ k: 'Ток' 				, v: '0.5 А' 			, },
-
-		{ k: 'Продавець' 	, v: 'ЦУМ' 					, }, // Ц.Ринок
+		{ k: 'Магазин' 			, v: 'ЦУМ' 				, }, // Ц.Ринок
 	],
 },
 {
@@ -929,19 +928,17 @@ const arrList = [
 	keyval: [
 		{ k: 'Телевізор' 	, v: 'LG' 		, },
 		{ k: 'Діагональ' 	, v: '25' 		, },
-		{ k: 'Продавець' 	, v: 'Target' 	, }, // Ак.Павлова
+		{ k: 'Магазин' 		, v: 'Target' 	, }, // Ак.Павлова
 	],
 },
-
-
-
 {
-	id: '20040323_gp', title: 'GP', type: 'Пристрій зарядний', cat: { electronics: 1, },
+	id: '20040323_gp', date: '2004-03-23', title: 'Пристрій зарядний', descr: 'GP', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Пристрій зарядний' 	, v: 'GP' 			, },
 		{ k: 'Типорозмір батарей' 	, v: 'ААА' 			, },
 		{ k: 'Кількість батарей' 	, v: '4 шт' 		, },
-		{ k: 'Дата' 				, v: '2004-03-23' 	, },
+		{ backspace: true },
+
 		{ k: 'Ціна' 				, v: '65 грн' 		, },
 	],
 },
@@ -952,9 +949,15 @@ const arrList = [
 
 
 
-
-
-
 ];
+
+
+
+
+
+
+
+
+
 
 

@@ -13,7 +13,7 @@ const htmlLinkSign = '&#11023;';
 
 
 
-document.querySelector( 'title' ).innerHTML = 'Home House ' + appVersion;
+document.querySelector( 'title' ).innerHTML = 'House Hold ' + appVersion;
 
 
 

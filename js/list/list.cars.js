@@ -216,14 +216,6 @@ const arrListCars = [
 
 	],
 },
-
-
-
-
-
-
-
-
 {
 	id: '20230502_vag_com', date: '2023-05-02', title: 'Адаптер діагностичний', descr: 'VAG COM', 
 	keyval: [
