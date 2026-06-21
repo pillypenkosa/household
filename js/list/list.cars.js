@@ -227,6 +227,23 @@ const arrListCars = [
 	],
 },
 {
+	id: '20230428_xado', date: '2023-04-28', title: 'Очисник контактів', descr: 'Xado', 
+	keyval: [
+		{ k: 'Очисник контактів' 	, v: 'Xado Verylube' 	, },
+		{ k: 'Продавець' 			, v: 'xado.com'			, href: 'https://xado.com/avtomobilnaya-himiya/ochistiteli-razlichnih-sistem-avtomobilya/ochistitel-kontaktov-s-effektom-udaleniya-vlagi' , },
+
+		{ k: 'Ціна' 				, v: '135 грн' 			, },
+	],
+},
+{
+	id: '20221028_cleaner', date: '2022-10-28', title: 'Спрей', descr: 'Carb Cleaner', 
+	keyval: [
+		{ k: 'Спрей' 		, v: 'Carb Cleaner' 	, },
+		{ k: 'Продавець' 	, v: 'Лоск 2/4, Макс' 	, },
+		{ k: 'Ціна' 		, v: '150 грн' 			, },
+	],
+},
+{
 	id: '20220607_dnipro_m', date: '2022-06-07', title: 'Пристрій зарядний', descr: 'Dnipro-M', 
 	keyval: [
 		{ k: 'Пристрій зарядний' 	, v: 'Dnipro-M' 				, },
@@ -273,11 +290,14 @@ const arrListCars = [
 
 
 
-
-
-
-
-
 ];
+
+
+
+
+
+
+
+
 
 
