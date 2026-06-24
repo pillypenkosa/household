@@ -28,9 +28,42 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Дата' 				, v: '2025-11-26' 				, },
 		{ backspace: true },
 
-		{ k: '--- Кузов' 		, v: 'Універсал' 					, },
+
+
+		{ k: '--- Кузов' 			, v: 'Універсал' 					, },
 		{ backspace: true },
 
+
+
+		{ k: '--- Двигун' 		, v: '' 						, },
+		{ k: '' 				, v: '1984 см<sup>3</sup>' 		, },
+		{ k: '' 				, v: 'AGG' 						, },
+		{ backspace: true },
+
+
+
+		{ k: '--- КПП' 			, v: '' 				, },
+		{ k: 'код' 				, v: 'CEW' 				, },
+		{ k: 'Тип' 				, v: '02A' 				, },
+		{ k: '' 				, v: '5-механічна' 		, },
+
+		{ k: '--- інші' 		, v: '' 				, },
+		{ k: 'код' 				, v: 'CNL' 				, },
+		{ k: 'VAG' 				, v: '02A300048H' 		, },
+		
+		{ k: 'код' 				, v: 'CRU' 				, },
+		{ k: 'VAG' 				, v: '02A300048K' 		, },
+		{ backspace: true },
+
+
+
+
+		{ k: '--- Магнітола' 		, v: '' 						, },
+
+		{ manufacturer: 'kenwood', },
+		{ k: 'Модель' 				, v: 'KDC-3057U' 	, },
+		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href : 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
+		{ k: 'Інструкція' 			, v: 'mcgrp.ru' 			, href: 'https://mcgrp.ru/files/viewer/924371/1', },
 
 
 
@@ -48,12 +81,41 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+
+
+
+
+
+
 // Service ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
+{
+	id: '20250624', date: '2026-06-24', title: 'Захист картеру двигуна', descr: '...покупка', 
+	keyval: [
+		{ k: 'Захист картеру двигуна' 		, v: '' 				, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Ціна' 						, v: '3800 грн' 		, },
+	],
+},
+{
+	id: '20250618', date: '2026-06-18', title: 'Фільтр паливний', descr: 'Purflux ...покупка', 
+	keyval: [
+		{ k: 'Фільтр паливний' 		, v: 'Purflux' 				, },
+		{ manufacturer: 'purflux', },
+		
+		{ k: 'Код' 					, v: 'EP 90 C' 				, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Штрих-код' 			, v: '3 286061 702269' 		, },
+	],
+},
 {
 	id: '20260616_', date: '2026-06-16', title: 'ГБО-4', descr: '...заміна старого обладнання', 
 	keyval: [
@@ -184,7 +246,7 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Пробіг' 	, v: '329955 км' 			, },
 		{ backspace: true },
 
-		{ manufacturer: 'GKN-Spidan', },
+		{ manufacturer: 'gkn_spidan', },
 		{ k: 'Код' 						, v: '22554' 		, },
 		{ k: 'Код VAG' 					, v: '893498203' 	, },
 		{ backspace: true },
@@ -204,7 +266,7 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Пробіг' 	, v: '329955 км' 			, },
 		{ backspace: true },
 
-		{ manufacturer: 'GKN-Spidan', },
+		{ manufacturer: 'gkn_spidan', },
 		{ k: 'Код' 						, v: '23514' 		, },
 		{ k: 'Код VAG' 					, v: '191498201B' 	, },
 		{ backspace: true },
@@ -224,7 +286,7 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Пробіг' 	, v: '329955 км' 			, },
 		{ backspace: true },
 
-		{ manufacturer: 'GKN-Spidan', },
+		{ manufacturer: 'gkn_spidan', },
 		{ k: 'Код' 						, v: '26101' 		, },
 		{ k: 'Код VAG' 					, v: '191498202' 	, },
 		{ k: 'Код VAG' 					, v: '191407282E' 	, },
@@ -570,12 +632,11 @@ const arrList_VW_Passat_B4_AGG = [
 		{ backspace: true },
 
 		{ k: 'Фари' 				, v: 'тюнінговані' 			, },
-		{ k: 'Виробник' 			, v: 'Junyan' 				, },
+		{ manufacturer: 'junyan' 		, },
+		//{ k: 'Виробник' 			, v: 'Junyan' 				, },
 		{ k: 'Маркування' 			, v: 'LPVW97' 				, },
 		{ k: 'Виконання' 			, v: 'Daylight Black' 		, },
-		{ k: 'Країна' 				, v: 'Тайвань' 				, },
 		{ backspace: true },
-
 
 		{ k: 'Продавець' 			, v: '+380970950950' 	, },
 		{ k: '' 					, v: 'OLX, Львів' 		, },
@@ -939,7 +1000,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20251126_oil', date: '2025-11-26', title: 'Масло моторне', descr: 'Liqui Moly ...заміна', 
+	id: '20251126_oil', date: '2025-11-26', title: 'Масло моторне', oil: 1, descr: 'Liqui Moly ...заміна', 
 	keyval: [
 		
 		{ station: 'merefa_auto_service_center', }, // Денищенко Віталій

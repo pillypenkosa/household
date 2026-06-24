@@ -79,10 +79,27 @@ a {
 			background: var( --bg-b );
 		}
 
-		.spoiler-title-cat {
+		.spoiler-title-descr {
 			font-weight: normal;
 			color: #999;
 		}
+
+		.spoiler-title-date {
+			font-weight: normal;
+			color: #099;
+		}
+		.spoiler-title-date-oil {
+			font-weight: normal;
+			color: #0ff;
+		}
+
+
+
+
+
+
+
+
 
 	.spoiler .spoiler-body {
 		margin: 20px 0 30px 20px;

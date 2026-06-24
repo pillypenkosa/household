@@ -104,8 +104,8 @@ const arrList = [
 		{ k: 'Операційна система' 		, v: 'Tizen' 			, },
 		{ backspace: true },
 
-		{ k: 'Магазин' 					, v: '' 				, gps: 'https://maps.app.goo.gl/MHkLXEa1vif5u3SF6', }, 	// вул. Миколаївська, 6
-		{ k: 'e-Магазин' 				, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/tvs/tv-samsung-ue40f6000fuxua.html', },
+		{ shop: 'kharkiv_elmir_1' 		, }, 	
+		{ k: 'Товар' 					, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/tvs/tv-samsung-ue40f6000fuxua.html', },
 
 		{ backspace: true },
 		{ k: 'Ціна' 					, v: '12500 грн' 		, },

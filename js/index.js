@@ -57,100 +57,164 @@ function showSpoilers( arr ) {
 
 			let htmlTBody = '';
 			k_spoiler.keyval.forEach( k_keyval => {
+				//console.log( k_keyval );
 
-					//console.log( k_keyval );
-
-				if ( k_keyval.backspace ) {
+				if ( k_keyval.backspace ) 
 					htmlTBody += `<tr><td class="td-separator" colspan="2">&nbsp;</td></tr>`;
+				
 
-				} else {
+				if ( k_keyval.manufacturer ) {
 
 					let htmlVal = '';
-					if ( k_keyval.href || k_keyval.gps || k_keyval.clue_manufacturer ) {
+					if ( objListManufacturer && objListManufacturer[ k_keyval.manufacturer ] ) {
 
-						if ( k_keyval.href ) 
-							htmlVal = `<a href="${ k_keyval.href }" target="_blank">${ k_keyval.v }${ htmlLinkSign }</a>`;
+						let manufacturer = objListManufacturer[ k_keyval.manufacturer ];
 
-						if ( k_keyval.gps ) 
-							htmlVal = `<a href="${ k_keyval.gps }" target="_blank">${ k_keyval.v } (GPS${ htmlLinkSign })</a>`;
+						if ( manufacturer.title ) {
+							if ( manufacturer.internet ) {
 
+								let hrefTxt = '';
 
-						let htmlClue = '';
-						if ( k_keyval.clue_manufacturer ) {
-							if ( objManufacturer && objCountry ) {
+								if ( manufacturer.internet.avtopro ) 
+									hrefTxt = manufacturer.internet.avtopro;
 
-								if ( objManufacturer[ k_keyval.clue_manufacturer ] ) {
-
-									let manufacturer = objManufacturer[ k_keyval.clue_manufacturer ];
-
-									//console.log( objCountry );
-									//console.log( manufacturer );
-
-									let country = '';
-									if ( manufacturer.country ) {
-										for ( let k_name in manufacturer.country ) {
-
-											if ( objCountry[ k_name ] ) {
-												if ( objCountry[ k_name ].title ) {
-
-													if ( objCountry[ k_name ].title.ua ) 
-														country += `${ objCountry[ k_name ].title.ua }, `;
-
-												}
-											}
-										}
-									}
-
-									htmlClue = country.slice( 0, -2 );
-
-									//console.log( htmlClue );
-
-									if ( objManufacturer[ k_keyval.clue_manufacturer ].year ) {
-
-										htmlClue = `${ htmlClue } (${ objManufacturer[ k_keyval.clue_manufacturer ].year })`;
+								if ( manufacturer.internet.other ) 
+									hrefTxt = manufacturer.internet.other;
 
 
-										htmlVal = `<span class="txt-clue-manufacturer" title="${ k_keyval.v }, ${ htmlClue }">${ k_keyval.v }</span>`;
-										
-										//console.log( htmlClue );
-										//console.log( htmlVal );
+								let hrefTitleClue = '';
+								if ( manufacturer.country ) {
 
+									let hrefTitleClueYear = manufacturer.year ? ` ( ${ manufacturer.year } )` : '';
 
-									}
-
-									//console.log( objCountry );
+									hrefTitleClue = `title="${ manufacturer.country }${ hrefTitleClueYear }"`;
 								}
-							}
 
-							//htmlVal = `<a href="${ k_keyval.gps }" target="_blank">${ k_keyval.v } (GPS${ htmlLinkSign })</a>`;
-							//console.log( 'htmlClue: ', htmlClue );
+								htmlVal = `<a href="${ hrefTxt }" ${ hrefTitleClue } target="_blank">${ manufacturer.title }${ htmlLinkSign }</a>`
+							} 
+							else 
+								htmlVal = manufacturer.title;
 						}
-					}
-					else
-						htmlVal = k_keyval.v;
+					} 
+					else 
+						htmlVal = k_keyval.manufacturer;
 
-					htmlTBody += `<tr><td class="txt-key">${ k_keyval.k }</td><td class="txt-val">${ htmlVal }</td></tr>`;
 
+					htmlTBody += `<tr>
+						<td class="txt-key">Виробник</td>
+						<td class="txt-val">${ htmlVal }</td>
+					</tr>`;
 				}
 
-				//htmlTBody += `<tr><td>${ k_keyval.k }</td><td>${ k_keyval.v }</td></tr>`;
+
+
+
+				if ( k_keyval.shop ) {
+
+
+					//console.log( k_keyval.shop  );
+					//console.log( objListShop  );
+
+					if ( objListShop && objListShop[ k_keyval.shop ] ) {
+
+						//alert( k_keyval.shop );
+
+						let objShop = objListShop[ k_keyval.shop ];
+						let htmlVal = '';
+
+						//console.log( objShop  );
+
+						if ( objShop.title ) {
+							
+							htmlVal = objShop.title;
+
+							if ( objShop.gps ) {
+
+								let shopClue = '';
+								if ( objShop.address ) {
+									shopClue = `title="${ objShop.address }"`;
+								}
+
+								htmlVal =`<a href="${ objShop.gps }" ${ shopClue } target="_blank">${ objShop.title }${ htmlLinkSign }</a>`;
+							}
+						}
+
+						htmlTBody += `<tr>
+							<td class="txt-key">Магазин</td>
+							<td class="txt-val">${ htmlVal }</td>
+						</tr>`;
+					}
+				}
+
+
+
+
+
+				if ( k_keyval.k || k_keyval.v ) {
+
+					let htmlKey = k_keyval.k ;
+					let htmlVal = k_keyval.v;
+
+
+					if ( k_keyval.href ) 
+						htmlVal = `<a href="${ k_keyval.href }" title="Магазин або приклад" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
+
+					if ( k_keyval.gps ) 
+						htmlVal = `<a href="${ k_keyval.gps }" title="GPS" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
+
+
+
+
+
+					htmlTBody += `<tr>
+						<td class="txt-key">${ htmlKey }</td>
+						<td class="txt-val">${ htmlVal }</td>
+					</tr>`;
+				}
 			});
+
+
+			//console.log( htmlTBody );
+			//console.log( htmlTBody );
+
+
 
 			let htmlTableKeyVal = `<table>
 				<thead></thead>
 				<tbody>${ htmlTBody }</tbody>
 			</table>`;
 
-			htmlBody += `<div>${ htmlTableKeyVal }</div>`;
+
+			//console.log( htmlTableKeyVal );
+
+
+
+
+			htmlBody = `<div>${ htmlTableKeyVal }</div>`;
+			//console.log( htmlBody );
 		}
 
+/*
+		let clsOil = '';
+		if ( k_spoiler.oil ) 
+			clsOil = 'oil';
+		*/
+
 		let htmlDate = '';
-		if ( k_spoiler.date  ) 
-			htmlDate = `<span class="spoiler-title-cat">${ k_spoiler.date }</span>`;
+		if ( k_spoiler.date ) {
+
+			
+			if ( k_spoiler.oil ) 
+				htmlDate = `<span class="spoiler-title-date-oil">${ k_spoiler.date }</span>`;
+	
+			else 
+				htmlDate = `<span class="spoiler-title-date">${ k_spoiler.date }</span>`;
+
+		}
 		
 		let htmlDescr = '';
 		if ( k_spoiler.descr  ) 
-			htmlDescr = `<span class="spoiler-title-cat">${ k_spoiler.descr }</span>`;
+			htmlDescr = `<span class="spoiler-title-descr">${ k_spoiler.descr }</span>`;
 		
 
 

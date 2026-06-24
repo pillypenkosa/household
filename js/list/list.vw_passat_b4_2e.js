@@ -111,66 +111,70 @@ const arrList_VW_Passat_B4_2e = [
 
 
 {
-	id: '20260618_gdb1048', date: '2026-06-20', title: 'Колодки гальмівні передні', descr: 'TRW GDB1048 ...заміна', 
+	id: '20260618_gdb1048', date: '2026-06-20', title: 'Колодки гальмівні передні', descr: '...заміна', 
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 
-		{ k: 'Колодки гальмівні передні' 	, v: 'TRW' 						, },
-		{ k: 'Код' 							, v: 'GDB1048' 					, },
+		{ k: 'Колодки гальмівні передні' 	, v: '' 						, },
+		{ manufacturer: 'trw', },
+		{ k: 'Код' 							, v: 'GDB 1048' 					, },
 		{ k: 'Призначення' 					, v: 'передні ( ліві, праві )' 	, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 					, v: 'Кравцов Макс' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 						, v: '2026-06-18' 				, },
-
 		{ k: 'Ціна' 						, v: '6700 грн за 4 диски та 8 колодок' , },
 	],
 },
 {
-	id: '20260618_gdb1330', date: '2026-06-20', title: 'Колодки гальмівні задні', descr: 'TRW GDB1330 ...заміна',
+	id: '20260618_gdb1330', date: '2026-06-20', title: 'Колодки гальмівні задні', descr: '...заміна',
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
-
-		{ k: 'Колодки гальмівні задні' 	, v: 'TRW' 						, },
-		{ k: 'Код' 						, v: 'можливо GDB1330' 			, },
-		{ k: 'Призначення' 				, v: 'задні ( ліві, праві )' 	, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 				, v: 'Кравцов Макс' 			, },
+		{ manufacturer: 'trw', },
+		{ k: 'Код' 						, v: 'можливо GDB 1330' 			, },
+		{ k: 'Призначення' 				, v: 'задні ( ліві, праві )' 	, },
+		{ backspace: true },
+		
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 					, v: '2026-06-18' 				, },
 
 	],
 },
 {
-	id: '20260618_df1533', date: '2026-06-20', title: 'Диски гальмівні передні', descr: 'TRW DF1533 ...заміна', 
+	id: '20260618_df1533', date: '2026-06-20', title: 'Диски гальмівні передні', descr: '...заміна', 
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 
-		{ k: 'Диски гальмівні задні' 	, v: 'TRW' 							, },
-		{ k: 'Код' 						, v: 'DF1533' 						, },
+		{ manufacturer: 'trw', },
+		{ k: 'Код' 						, v: 'DF 1533' 						, },
 		{ k: 'Призначення' 				, v: 'передні ( лівий, правий )' 	, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 				, v: 'Кравцов Макс' 				, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 					, v: '2026-06-18' 					, },
 
 	],
 },
 {
-	id: '20260618_df1529', date: '2026-06-20', title: 'Диски гальмівні задні', descr: 'TRW DF1529 ...заміна', 
+	id: '20260618_df1529', date: '2026-06-20', title: 'Диски гальмівні задні', descr: '...заміна', 
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 
-		{ k: 'Диски гальмівні задні' 	, v: 'TRW' 						, },
-		{ k: 'Код' 						, v: 'DF1529' 					, },
+		{ manufacturer: 'trw', },
+		{ k: 'Код' 						, v: 'DF 1529' 					, },
 		{ k: 'Призначення' 				, v: 'задні ( лівий, правий )' 	, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 				, v: 'Кравцов Макс' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 					, v: '2026-06-18' 				, },
 
 	],
@@ -180,6 +184,7 @@ const arrList_VW_Passat_B4_2e = [
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 	
 		{ k: 'Підшипники задні' 	, v: '' 					, },
 	],
@@ -189,40 +194,54 @@ const arrList_VW_Passat_B4_2e = [
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 	
 		{ k: 'Рідина гальмівна' 	, v: '' 					, },
 	],
 },
 {
-	id: '20260616_oil', date: '2026-06-20', title: 'Масло моторне', descr: 'Liqui Moly ...заміна', 
+	id: '20260616_oil', date: '2026-06-20', title: 'Масло моторне', oil: 1, descr: '...заміна', 
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 				, },
+		{ backspace: true },
 
-		{ k: 'Масло моторне' 				, v: 'Liqui Moly 10W-40' 	, },
+		{ k: 'Масло моторне' 				, v: '10W-40' 	, },
+		{ manufacturer: 'liqui_m', },
 		{ k: 'Каністра пластикова синя' 	, v: '5 л' 					, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 					, v: 'Кравцов Макс' 		, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 						, v: '2026-06-16' 			, },
 		{ k: 'Ціна' 						, v: '2850 грн за 5 л' 		, },
 	],
 },
 {
-	id: '20260616_filter', date: '2026-06-20', title: 'Фільтр масляний', descr: 'Mahle OC 264 ...заміна', 
+	id: '20260616_filter', date: '2026-06-20', title: 'Фільтр масляний', descr: '...заміна', 
 	keyval: [
 		{ k: 'СТО' 					, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 				, v: '462504 км' 			, },
+		{ backspace: true },
 
-		{ k: 'Фільтр масляний' 		, v: 'Mahle' 			, },
+		{ manufacturer: 'mahle', },
 		{ k: 'Код' 					, v: 'OC 264' 			, },
 		{ backspace: true },
 
-		{ k: 'Продавець' 			, v: 'Кравцов Макс' 	, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Дата' 				, v: '2026-06-16' 		, },
 		{ k: 'Ціна' 				, v: '250 грн' 			, },
 	],
 },
+
+
+
+
+
+
+
+
+
+
 {
 	id: '20260411_mirror', date: '2026-04-11', title: 'Дзеркало', descr: 'пасажирське ...заміна', 
 	keyval: [
@@ -278,7 +297,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20241130_oil', date: '2024-12-12', title: 'Масло моторне', descr: 'Liqui Moly ...заміна', 
+	id: '20241130_oil', date: '2024-12-12', title: 'Масло моторне', oil: 1, descr: 'Liqui Moly ...заміна', 
 	keyval: [
 		{ k: 'СТО' 				, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 			, v: '454680 км' 			, },
@@ -410,7 +429,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20231201_aral', date: '2024-12-04', title: 'Масло моторне', descr: 'Aral ...заміна', 
+	id: '20231201_aral', date: '2024-12-04', title: 'Масло моторне', oil: 1, descr: 'Aral ...заміна', 
 	keyval: [
 		{ k: 'СТО' 				, v: 'Авто сервіс Center' 	, gps: 'https://maps.app.goo.gl/dYrU5L2LQ11xoYZT8', },
 		{ k: 'Пробіг' 			, v: '450660 км' 			, },
@@ -510,20 +529,20 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
+	id: '20231112_oil_4', date: '2023-11-12', title: 'Масло моторне', oil: 1, descr: 'Aral ...покупка', 
+	keyval: [
+		{ k: 'Масло моторне' 	, v: 'Aral' 			, },
+		{ k: 'Продавець' 		, v: 'Лоск 2/4, Макс' 	, },
+		{ k: 'Кількість' 		, v: '4 л' 				, },
+	],
+},
+{
 	id: '20231112_oil_1', date: '2023-11-12', title: 'Масло моторне', descr: 'Aral ...заміна', 
 	keyval: [
 		{ k: 'Масло моторне' 	, v: 'Aral' 			, },
 		{ k: 'Продавець' 		, v: 'Лоск 2/4, Макс' 	, },
 		{ k: 'Дата' 			, v: '2023-11-12' 		, },
 		{ k: 'Кількість' 		, v: '1 л' 				, },
-	],
-},
-{
-	id: '20231112_oil_4', date: '2023-11-12', title: 'Масло моторне', descr: 'Aral ...покупка', 
-	keyval: [
-		{ k: 'Масло моторне' 	, v: 'Aral' 			, },
-		{ k: 'Продавець' 		, v: 'Лоск 2/4, Макс' 	, },
-		{ k: 'Кількість' 		, v: '4 л' 				, },
 	],
 },
 {
@@ -703,7 +722,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20230518_oil', date: '2023-05-18', title: 'Масло моторне', descr: 'Aral ...заміна', 
+	id: '20230518_oil', date: '2023-05-18', title: 'Масло моторне', oil: 1, descr: 'Aral ...заміна', 
 	keyval: [
 		{ k: 'Масло моторне' 	, v: 'Aral' 			, },
 		{ k: 'Ціна' 			, v: '1000 грн за 4 л' 	, },
@@ -828,7 +847,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20221028_aral_4', date: '2022-10-28', title: 'Масло моторне', descr: 'Aral ...заміна', 
+	id: '20221028_aral_4', date: '2022-10-28', title: 'Масло моторне', oil: 1, descr: 'Aral ...заміна', 
 	keyval: [
 		{ k: 'Масло моторне' 	, v: 'Aral Blue Tronic' , },
 		{ k: 'Маркування' 		, v: '10w40, ACEA A3/B4, API SN, VW 501.01/505.00' 		, },
@@ -1160,7 +1179,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20211209_valvoline', date: '2021-12-09', title: 'Масло моторне', descr: 'Valvoline ...заміна', 
+	id: '20211209_valvoline', date: '2021-12-09', title: 'Масло моторне', oil: 1, descr: 'Valvoline ...заміна', 
 	keyval: [
 		{ k: 'Масло моторне' 	, v: 'Valvoline MaxLife' 			, },
 		{ k: 'Маркування' 		, v: '10w40 Synthetic Technology' 	, },
