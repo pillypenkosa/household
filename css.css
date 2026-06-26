@@ -81,17 +81,22 @@ a {
 
 		.spoiler-title-descr {
 			font-weight: normal;
+			font-style: oblique;
 			color: #999;
 		}
 
 		.spoiler-title-date {
 			font-weight: normal;
-			color: #099;
+			color: #399;
 		}
-		.spoiler-title-date-oil {
-			font-weight: normal;
-			color: #0ff;
-		}
+
+
+
+
+	.spoiler-title .mark-oil {
+
+		color: #5f5;
+	}
 
 
 

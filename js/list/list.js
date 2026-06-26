@@ -71,7 +71,7 @@ const arrList = [
 		{ k: 'BarCode' 				, v: '4 820246 481069' 		, },
 
 		{ k: 'Магазин' 				, v: 'біля Мілітаріста, пр. Аерокосмічний, 20а'  }, 
-		{ k: '' 					, v: 'Десь тут' 			, gps: 'https://maps.app.goo.gl/4QAw3k4sAZLyjShv7', }, 
+		{ k: '' 					, v: 'Десь тут' 			, href: 'https://maps.app.goo.gl/4QAw3k4sAZLyjShv7', }, 
 		{ backspace: true },
 
 		{ k: 'Ціна' 				, v: '1090 грн' 			, },
@@ -807,7 +807,7 @@ const arrList = [
 	],
 },
 {
-	id: '20150000_', title: '', type: 'Причіп велосипедний', cat: { bicycle: 1, },
+	id: '20150000_', title: 'Причіп', descr: 'велосипедний', cat: { bicycle: 1, },
 	keyval: [
 		{ k: 'Причіп велосипедний' 	, v: '' 			, },
 		{ k: 'Дата' 				, v: '~ 2015' 		, },

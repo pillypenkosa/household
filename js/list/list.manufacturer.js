@@ -13,7 +13,7 @@ const arrListManufacturer = [
 
 { id: 'alkar' 			, title: 'Alkar' 				, country: 'Іспанія' 			, year: 1968 	, internet: { avtopro: 'https://avto.pro/makers/alkar' 							, }, },
 { id: 'beru' 			, title: 'Beru' 				, country: 'Німеччина' 			, year: 1912 	, internet: { avtopro: 'https://avto.pro/makers/beru' 							, }, },
-{ id: 'bilstein' 		, title: 'Bilstein ' 			, country: 'Німеччина' 			, year: 1873 	, internet: { avtopro: 'https://avto.pro/makers/bilstein' 						, }, },
+{ id: 'bilstein' 		, title: 'Bilstein' 			, country: 'Німеччина' 			, year: 1873 	, internet: { avtopro: 'https://avto.pro/makers/bilstein' 						, }, },
 { id: 'bosch' 			, title: 'Bosch' 				, country: 'Німеччина' 			, year: 1921 	, internet: { avtopro: 'https://avto.pro/makers/bosch' 							, }, },
 { id: 'contitech' 		, title: 'Contitech' 			, country: 'Німеччина' 			, year: 1871 	, internet: { avtopro: 'https://avto.pro/makers/continental' 					, }, }, // Contitech - подразделение Continental
 { id: 'denso' 			, title: 'Denso' 				, country: 'Японія' 			, year: 1900 	, internet: { avtopro: 'https://avto.pro/makers/denso' 							, }, },

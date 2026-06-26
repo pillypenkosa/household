@@ -16,8 +16,9 @@ const arrList_VW_Passat_B4_AGG = [
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------d
 
+
 { 
-	id: '20200805', date: '2025-11-26', title: 'VW Passat B4', descr: 'двигун AGG', 
+	id: '20200805', date: '2025-11-26', title: 'VW Passat B4', descr: 'двигун AGG ( 329147 км )', 
 	keyval: [
 		
 		{ k: '--- Автомобіль' 		, v: 'VW Passat B4' 			, },
@@ -26,18 +27,20 @@ const arrList_VW_Passat_B4_AGG = [
 		{ backspace: true },
 
 		{ k: 'Дата' 				, v: '2025-11-26' 				, },
+		{ mileage: 329147 },
+
 		{ backspace: true },
 
 
 
-		{ k: '--- Кузов' 			, v: 'Універсал' 					, },
+		{ k: '--- Кузов' 			, v: 'Універсал' 			, },
 		{ backspace: true },
 
 
 
 		{ k: '--- Двигун' 		, v: '' 						, },
-		{ k: '' 				, v: '1984 см<sup>3</sup>' 		, },
-		{ k: '' 				, v: 'AGG' 						, },
+		{ k: 'Об\'єм' 			, v: '1984 см<sup>3</sup>' 		, },
+		{ k: 'Код' 				, v: 'AGG' 						, },
 		{ backspace: true },
 
 
@@ -58,14 +61,12 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
-		{ k: '--- Магнітола' 		, v: '' 						, },
+		{ k: '--- Магнітола' 		, v: '' 					, },
 
 		{ manufacturer: 'kenwood', },
 		{ k: 'Модель' 				, v: 'KDC-3057U' 	, },
-		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href : 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
+		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href: 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
 		{ k: 'Інструкція' 			, v: 'mcgrp.ru' 			, href: 'https://mcgrp.ru/files/viewer/924371/1', },
-
-
 
 
 	],
@@ -87,12 +88,41 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
-// Service ----------------------------------------------------------------------------------------------------------------------------------------------------
+// Service / purchase ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 
 
+
+
+
+
+
+{
+	id: '20250626_locker', date: '2026-06-26', title: 'Захист арок колес', descr: '...покупка', 
+	keyval: [
+		{ k: 'Захист арок колес' 		, v: 'Mega Locker' 	, },
+		{ k: '' 						, v: 'Харків' 		, },
+		{ k: '' 						, v: '4 шт вкруг' 		, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Ціна' 					, v: '2000 грн - 4 захисту з 4 бризковиками' 		, },
+	],
+},
+{
+	id: '20250626_', date: '2026-06-26', title: 'Бризковики', descr: '...покупка', 
+	keyval: [
+		{ k: 'Бризковики ' 		, v: 'T-Series' 	, },
+		{ k: 'Моделі' 			, v: 'T1, T2' 	, },
+		{ k: '' 				, v: 'Гумові універсальні' 		, },
+		{ k: '' 				, v: '4 шт вкруг' 		, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+	],
+},
 {
 	id: '20250624', date: '2026-06-24', title: 'Захист картеру двигуна', descr: '...покупка', 
 	keyval: [
@@ -106,10 +136,9 @@ const arrList_VW_Passat_B4_AGG = [
 {
 	id: '20250618', date: '2026-06-18', title: 'Фільтр паливний', descr: 'Purflux ...покупка', 
 	keyval: [
-		{ k: 'Фільтр паливний' 		, v: 'Purflux' 				, },
+		{ k: 'Фільтр паливний' 		, v: '' 				, },
 		{ manufacturer: 'purflux', },
-		
-		{ k: 'Код' 					, v: 'EP 90 C' 				, },
+		{ k: 'Код' 					, v: 'EP 90 C' 			, },
 		{ backspace: true },
 	
 		{ shop: 'kravcov_maxym_kostyantyn' },
@@ -117,49 +146,40 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20260616_', date: '2026-06-16', title: 'ГБО-4', descr: '...заміна старого обладнання', 
+	id: '20260616_', date: '2026-06-16', title: 'ГБО-4', descr: '...заміна старого обладнання ( 330900 км )', 
 	keyval: [
-		
-		{ k: 'Пробіг' 		, v: '330900 км' 				, },
-		{ backspace: true },
-		
+
+		{ mileage: 330900 },
 		{ station: 'kharkiv_lpg', },
+		
 		{ k: 'Майстер' 		, v: 'Тітов Микола Петрович' 	, },
 		{ backspace: true },
 
 		{ k: 'Редуктор' 		, v: 'Tomasetto' 			, },
 		{ k: 'Форсунки' 		, v: 'AEB' 					, },
 		{ k: 'Бак ( старий )' 	, v: 'Stag, 44 л' 			, },
-		{ backspace: true },
-
 		{ k: 'Ціна' 		, v: '15000 грн ( з роботою )' 	, },
 	],
 },
 {
 	id: '20250614_', date: '2026-06-14', title: 'Килимок в багажник', descr: 'EVA', 
 	keyval: [
-		
-		{ k: 'Пробіг' 		, v: '330800 км' 	, },
+
+		{ mileage: 330800 },
 		{ backspace: true },
 
 		{ k: 'Товар' 		, v: 'prom.ua' 				, href: 'https://prom.ua/ua/p1835032310-kovrik-bagazhnik-eva.html', },
-		{ k: 'Магазин' 		, v: 'АвтоАс' 				, href: 'https://prom.ua/ua/c2217758-autoas.html', },
+		{ k: 'e-Магазин' 	, v: 'АвтоАс' 				, href: 'https://prom.ua/ua/c2217758-autoas.html', },
 		{ k: 'Сайт' 		, v: 'autoas-shop.com.ua' 	, href: 'https://autoas-shop.com.ua/ua/', },
-		{ backspace: true },
-		
 		{ k: 'Ціна' 		, v: '1600 грн' 	, },
-		{ backspace: true },
 	],
 },
 {
 	id: '20260611_', date: '2026-06-11', title: 'Перетяжка руля',
 	keyval: [
-		
-		{ k: 'Пробіг' 		, v: '330800 км' 				, },
-		{ backspace: true },
 
-		{ k: 'Майстер' 		, v: 'Олександр' 				, },
-		{ k: '' 			, v: 'Харків, вул. Молочна, 9, під\'їзд 3' 	, },
+		{ mileage: 330800 },
+		{ station: 'kharkiv_master_1', },
 		{ k: '' 			, v: '+380502926031' 			, },
 		{ backspace: true },
 
@@ -170,16 +190,14 @@ const arrList_VW_Passat_B4_AGG = [
 	id: '20260610_', date: '2026-06-10', title: 'Стоп-сигнал на ляду', descr: '...заміна старого на більший',
 	keyval: [
 
-		{ k: 'Пробіг' 				, v: '330800 км' 		, },
+		{ mileage: 330800 },
 		{ backspace: true },
 		
 		{ k: 'Стоп-сигнал' 			, v: 'Діодний червоний плоский горизонтальний' 	, },
 		{ k: 'Місце встановлення' 	, v: 'Стеля біля задньої ляди' 				, },
 		{ backspace: true },
 
-		{ k: 'Магазин' 				, v: 'Лоск' 			, },
-		{ backspace: true },
-
+		{ shop: 'kharkiv_losk', },
 		{ k: 'Ціна' 				, v: '300 грн' 			, },
 		{ backspace: true },
 	],
@@ -187,8 +205,8 @@ const arrList_VW_Passat_B4_AGG = [
 {
 	id: '20260209_exide', date: '2026-02-09', title: 'Акумулятор', descr: 'Exide EA 770 Premium',
 	keyval: [
-		
-		{ k: 'Пробіг' 		, v: '330437 км' 		, },
+
+		{ mileage: 330437 },
 		{ backspace: true },
 
 		{ manufacturer: 'exide', },
@@ -199,8 +217,6 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Напруга' 		, v: '12 V' 			, },
 		{ k: 'Ємність' 		, v: '77 A/h' 			, },
 		{ k: 'Струм' 		, v: '760 A' 			, },
-		{ backspace: true },
-
 		{ k: 'Тип' 			, v: 'SLA' 				, }, 	// SLA ( Sealed Lead Acid ) герметизована свинцево-кислотна батарея
 		{ k: 'Плюс' 		, v: 'R+ ( внизу праворуч / вгорі ліворуч )' 		, },
 		{ k: 'Габарити' 	, v: '278*175*190 мм' 	, },
@@ -211,39 +227,39 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Товар' 		, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/car_batteries/battery_exide_premium_77_ah_r_ea770.html', },
 		{ k: 'Ціна' 		, v: '4265 грн' 		, },
 		{ backspace: true },
-
 	],
 },
 {
-	id: '20251230_', date: '2025-12-30', title: 'Розвал/сходження',
+	id: '20251230_', date: '2025-12-30', title: 'Розвал-сходження ', descr: '( 330010 км )',
 	keyval: [
-		
-		{ station: 'merefa_auto_service_center' 	, }, // Олексій 
-		{ k: 'Пробіг' 	, v: '330010 км' 			, },
+
+		{ mileage: 330010 },
+
+		{ station: 'merefa_auto_service_center' 	, },
+		{ k: 'Майстер' 	, v: 'Олексій' 				, },
 	],
 },
 {
 	id: '20251226_antifreeze', date: '2025-12-26', title: 'Антифриз', descr: ' ...заміна',
 	keyval: [
-		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 	],
 },
 {
 	id: '20251226_brake_fluid', date: '2025-12-26', title: 'Рідина гальмівна', descr: ' ...заміна',
 	keyval: [
-		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 	],
 },
 {
-	id: '20251226_gkn_out', title: 'Пильники ШРУСів', date: '2025-12-26', descr: 'GKN-Spidan // зовнішні ...заміна',
+	id: '20251226_gkn_out', title: 'Пильники ШРУСів', date: '2025-12-26', descr: 'зовнішні ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'gkn_spidan', },
@@ -251,19 +267,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '893498203' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		{ k: 'Ціна' 				, v: '700 грн за 2 шт ' 	, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251226_gkn_in_l', date: '2025-12-26', title: 'Пильник ШРУСа', descr: 'GKN-Spidan // внутрішній, лівий ...заміна',
+	id: '20251226_gkn_in_l', date: '2025-12-26', title: 'Пильник ШРУСа', descr: 'внутрішній лівий ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'gkn_spidan', },
@@ -271,19 +284,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '191498201B' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn', },
 		//{ k: 'Ціна' 				, v: '1200 грн за 2 шт внутрішніх' 		, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251226_gkn_in_r', date: '2025-12-26', title: 'Пильник ШРУСа', descr: 'GKN-Spidan // внутрішній, правий ...заміна',
+	id: '20251226_gkn_in_r', date: '2025-12-26', title: 'Пильник ШРУСа', descr: 'внутрішній правий ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'gkn_spidan', },
@@ -292,41 +302,38 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '191407282E' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 						, },
+		{ shop: 'kravcov_maxym_kostyantyn' , },
 		{ k: 'Ціна' 				, v: '1200 грн за 2 шт внутрішніх' 		, },
-		{ backspace: true },
-
 	],
 },
 {
 	id: '20251226_support', date: '2025-12-26', title: 'Ремкомплекти супортів', 
 	keyval: [
 
-		{ k: 'Ремкомплекти' 	, v: '...начебто всі 4' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
-		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+
+		{ k: 'Ремкомплекти' 	, v: '...начебто всі 4' 			, },		
 	],
 },
 {
 	id: '20251226_bearing', date: '2025-12-26', title: 'Підшипники колес', descr: '2 задніх ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 		, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' , }, 
 		{ backspace: true },
 
 		{ k: 'Підшипник колес' 	, v: '2 задніх' 	, },
 	],
 },
 {
-	id: '20251226_bilstein_f', date: '2025-12-26', title: 'Амортизатори газо-масляні', descr: 'Bilstein, передні ...заміна', 
+	id: '20251226_bilstein_f', date: '2025-12-26', title: 'Амортизатори газо-масляні', descr: 'передні ...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' , },
 		{ backspace: true },
 
 		{ manufacturer: 'bilstein', },
@@ -334,39 +341,32 @@ const arrList_VW_Passat_B4_AGG = [
 		//{ k: 'Код VAG' 					, v: '' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '4800 грн за 2 шт ' 	, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Ціна' 		, v: '4800 грн за 2 шт ' 	, },
 	],
 },
 {
-	id: '20251226_bilstein_b', date: '2025-12-26', title: 'Амортизатори газо-масляні', descr: 'Bilstein, задні ...заміна', 
+	id: '20251226_bilstein_b', date: '2025-12-26', title: 'Амортизатори газо-масляні', descr: 'задні ...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'bilstein', },
 		{ k: 'Код' 						, v: '19-019949 BNE 1994' 		, },
-		//{ k: 'Код VAG' 					, v: '' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '3500 грн за 2 шт ' 	, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Ціна' 		, v: '3500 грн за 2 шт ' 	, },
 	],
 },
 {
-	id: '20251226_lesjofors_f', date: '2025-12-26', title: 'Пружини', descr: 'Lesjofors, передні ...заміна', 
+	id: '20251226_lesjofors_f', date: '2025-12-26', title: 'Пружини', descr: 'передні ...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'lesjofors', },
@@ -374,19 +374,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '1J0411105AN' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '1800 грн за 2 шт ' 	, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Ціна' 			, v: '1800 грн за 2 шт ' 	, },
 	],
 },
 {
-	id: '20251226_lesjofors_b', date: '2025-12-26', title: 'Пружини', descr: 'Lesjofors, задні ...заміна',
+	id: '20251226_lesjofors_b', date: '2025-12-26', title: 'Пружини', descr: 'задні ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'lesjofors', },
@@ -394,76 +391,64 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '3A9511105C' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '2500 грн за 2 шт ' 	, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn' 	, },
+		{ k: 'Ціна' 		, v: '2500 грн за 2 шт ' 	, },
 	],
 },
 {
-	id: '20251226_sachs_f', date: '2025-12-26', title: 'Відбійники амортизаторів', descr: 'Sachs, передні ...заміна',
+	id: '20251226_sachs_f', date: '2025-12-26', title: 'Відбійники амортизаторів', descr: 'передні ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, },
 		{ backspace: true },
 
 		{ manufacturer: 'sachs' 		, },
 		{ k: 'Код' 						, v: '1748392000' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '600 грн за 2 шт' 		, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Ціна' 		, v: '600 грн за 2 шт' 		, },
 	],
 },
 {
-	id: '20251226_kayaba_b', date: '2025-12-26', title: 'Відбійники амортизаторів', descr: 'Kayaba, задні ...заміна', 
+	id: '20251226_kayaba_b', date: '2025-12-26', title: 'Відбійники амортизаторів', descr: 'задні ...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'kayaba' 		, },
 		{ k: 'Код' 						, v: '910087' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '600 грн за 2 шт' 		, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Ціна' 		, v: '600 грн за 2 шт' 		, },
 	],
 },
 {
-	id: '20251226_lemforder', date: '2025-12-26', title: 'Верхні опори амортизаторів передніх + підшипники', descr: 'Lemforder ...заміна',
+	id: '20251226_lemforder', date: '2025-12-26', title: 'Верхні опори амортизаторів передніх + підшипники', descr: '...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'lemforder' 		, },
 		{ k: 'Код' 						, v: '26642 01' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Ціна' 				, v: '900 грн за 2 шт' 		, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn' 	, },
+		{ k: 'Ціна' 		, v: '900 грн за 2 шт' 		, },
 	],
 },
 {
-	id: '20251226_block_f', date: '2025-12-26', title: 'Колодки гальмівні', descr: 'TRW GDB1048, передні ...заміна',
+	id: '20251226_block_f', date: '2025-12-26', title: 'Колодки гальмівні', descr: 'передні ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'trw' 		, },
@@ -473,39 +458,33 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '' 			, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
-		{ k: 'Кількість' 			, v: '4 шт' 				, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn', },
+		{ k: 'Кількість' 	, v: '4 шт' 				, },
 	],
 },
 {
-	id: '20251226_block_b', date: '2025-12-26', title: 'Колодки гальмівні', descr: 'TRW GDB1330, задні ...заміна',
+	id: '20251226_block_b', date: '2025-12-26', title: 'Колодки гальмівні', descr: 'задні ...заміна',
 	keyval: [
 				
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'trw' 		, },
 		{ k: 'Код' 						, v: 'GDB 1330' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Кількість' 			, v: '4 шт' 				, },
 		{ k: 'Ціна' 				, v: '2000 грн за 8 шт ( в круг )' 		, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251226_trw_f', date: '2025-12-26', title: 'Диски гальмівні вентильовані', descr: 'TRW, передні ...заміна',
+	id: '20251226_trw_f', date: '2025-12-26', title: 'Диски гальмівні вентильовані', descr: 'передні ...заміна',
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'trw' 		, },
@@ -515,32 +494,27 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '321615301D' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Кількість' 			, v: '2 шт' 				, },
-		//{ k: 'Ціна' 				, v: '0 грн' 				, },
-		{ backspace: true },
-
 	],
 },
 {
 	id: '20251226_screw', title: 'Гвинти кріплення дисків гальмівних передніх', date: '2025-12-26', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' 	, }, // Денищенко Віталій
-		{ k: 'Пробіг' 	, v: '329955 км' 			, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 	, }, 
 		{ backspace: true },
 
 		{ k: 'Гвинти' 						, v: 'кількість не з\'ясована' 		, },
-
 	],
 },
 {
-	id: '20251226_trw_b', date: '2025-12-26', title: 'Диски гальмівні', descr: 'TRW DF 1529, задні ...заміна', 
+	id: '20251226_trw_b', date: '2025-12-26', title: 'Диски гальмівні', descr: 'задні ...заміна', 
 	keyval: [
 				
-		{ station: 'merefa_auto_service_center' 			, }, // Денищенко Віталій
-		{ k: 'Пробіг' 				, v: '329955 км' 		, },
+		{ mileage: 329955 },
+		{ station: 'merefa_auto_service_center' 			, }, 
 		{ backspace: true },
 
 		{ manufacturer: 'trw' 		, },
@@ -550,19 +524,16 @@ const arrList_VW_Passat_B4_AGG = [
 
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата придбання' 		, v: '2025-12-17' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Кількість' 			, v: '2 шт' 				, },
 		{ k: 'Ціна' 				, v: '4800 грн за 4 диска ( 2 передніх, 2 задніх )' 				, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251217_meyle_l', date: '2025-12-17', title: 'Перемикач поворотів + аварійка', descr: 'Meyle ...заміна', 
+	id: '20251217_meyle_l', date: '2025-12-17', title: 'Перемикач поворотів + аварійка', descr: '...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 					, v: '329940 км' 		, },
+		{ mileage: 329940 },
 		{ backspace: true },
 
 		{ manufacturer: 'meyle' 		, },
@@ -570,17 +541,15 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '1H0953513' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '700 грн' 				, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251217_meyle_r', date: '2025-12-17', title: 'Перемикач дворників', descr: 'Meyle ...заміна', 
+	id: '20251217_meyle_r', date: '2025-12-17', title: 'Перемикач дворників', descr: '...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 					, v: '329940 км' 		, },
+		{ mileage: 329940 },
 		{ backspace: true },
 
 		{ manufacturer: 'meyle' 		, },
@@ -588,14 +557,12 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 					, v: '377953519' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '600 грн' 				, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251217_bolt', date: '2025-12-17', title: 'Болт/пробка маслозливна', descr: 'Febi ...заміна',
+	id: '20251217_bolt', date: '2025-12-17', title: 'Болт/пробка маслозливна', descr: '...заміна',
 	keyval: [
 		
 		{ manufacturer: 'febi' 		, },
@@ -603,10 +570,8 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 				, v: 'N90288901' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Ціна' 				, v: '80 грн' 			, },
-		{ backspace: true },
-
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
+		{ k: 'Ціна' 				, v: '80 грн' 		, },
 	],
 },
 {
@@ -617,18 +582,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код VAG' 				, v: '357837242' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '250 грн за 4 шт' 	, },
-		{ backspace: true },
-
 	],
 },
 
 {
-	id: '20251214_lpvw97', date: '2025-12-14', title: 'Фари тюнінговані', descr: 'Junyan LPVW97 ...заміна оригінальних', 
+	id: '20251214_lpvw97', date: '2025-12-14', title: 'Фари тюнінговані', descr: '...заміна оригінальних', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329668 км' 		, },
+		{ mileage: 329668 },
 		{ backspace: true },
 
 		{ k: 'Фари' 				, v: 'тюнінговані' 			, },
@@ -640,9 +603,7 @@ const arrList_VW_Passat_B4_AGG = [
 
 		{ k: 'Продавець' 			, v: '+380970950950' 	, },
 		{ k: '' 					, v: 'OLX, Львів' 		, },
-		{ k: 'Дата' 				, v: '2025-12-14' 		, },
 		{ k: 'Ціна' 				, v: '10300 грн' 		, },
-		{ backspace: true },
 	],
 },
 {
@@ -655,14 +616,13 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Товар' 					, v: 'prom.ua' 			, href: 'https://prom.ua/ua/p891445286-deflektor-kapota-passat.html', },
 		{ k: 'Магазин' 					, v: 'prom.ua' 			, href: 'https://prom.ua/ua/c31087-autodefender-avtoaksessuary-avtozapchasti.html', },
 		{ k: 'Ціна' 					, v: '950 грн' 			, },
-		{ backspace: true },
 	],
 },
 {
 	id: '20251213_deflectors', date: '2025-12-13', title: 'Дефлектори/вітровики', descr: '...установка', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329466 км' 		, },
+		{ mileage: 329466 },
 		{ backspace: true },
 
 		{ k: 'Призначення' 			, v: 'Над вікнами дверей' 			, },
@@ -671,14 +631,13 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Товар' 				, v: 'prom.ua' 			, href: 'https://prom.ua/ua/p1149438739-vetroviki-passat-sedan.html', },
 		{ k: 'Магазин' 				, v: 'prom.ua' 			, href: 'https://prom.ua/ua/c31087-autodefender-avtoaksessuary-avtozapchasti.html', },
 		{ k: 'Ціна' 				, v: '1050 грн' 		, },
-		{ backspace: true },
 	],
 },
 {
 	id: '20251206_stoplight', date: '2025-12-06', title: 'Стоп-сигнал на ляду', descr: '...установка', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329466 км' 		, },
+		{ mileage: 329466 },
 		{ backspace: true },
 
 		{ k: 'Стоп-сигнал' 			, v: 'Діодний червоний плоский горизонтальний' 	, },
@@ -687,27 +646,24 @@ const arrList_VW_Passat_B4_AGG = [
 
 		{ k: 'Магазин' 				, v: 'Лоск 18 ряд' 		, },
 		{ k: 'Ціна' 				, v: '150 грн' 			, },
-		{ backspace: true },
 	],
 },
 {
 	id: '20251206_carmats', date: '2025-12-06', title: 'Килимки в салон', descr: 'EVA', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329466 км' 	, },
+		{ mileage: 329466 },
 		{ backspace: true },
 
 		{ k: 'Магазин' 				, v: 'avtoradosti.com.ua' 		, href: 'https://www.avtoradosti.com.ua/builder.html', },
-		{ k: 'Дата' 				, v: '2025-12-06' 				, },
 		{ k: 'Ціна' 				, v: '1750 грн' 				, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251206_jp_group', date: '2025-12-06', title: 'Патрубок клапану картерних газів', descr: 'JP Group ...заміна', 
+	id: '20251206_jp_group', date: '2025-12-06', title: 'Патрубок клапану картерних газів', descr: '...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329466 км' 	, },
+		{ mileage: 329466 },
 		{ backspace: true },
 
 		{ manufacturer: 'jp_group' 	, },
@@ -716,16 +672,14 @@ const arrList_VW_Passat_B4_AGG = [
 
 		{ k: 'Магазин' 				, v: 'ALFACARS' 		, href: 'https://avto.pro/seller/alfacars/', },
 		{ k: '' 					, v: 'avto.pro' 		, href: 'https://avto.pro/part-1112000300-JP_GROUP-199/#/products/1112000300;402;0000;385313', },
-		{ k: 'Дата' 				, v: '2025-12-06' 		, },
 		{ k: 'Ціна' 				, v: '222 грн' 			, },
-		{ backspace: true },
 	],
 },
 {
 	id: '20251204_febi', date: '2025-12-04', title: 'Реле 21', descr: 'поворотники ...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 					, v: '329300 км' 		, },
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'febi' 			, },
@@ -734,11 +688,8 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Позиція в блоці реле' 	, v: '6' 				, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 		, }, // Кравцов Максим
-		{ k: 'Дата' 					, v: '2025-12-04' 		, },
+		{ shop: 'kravcov_maxym_kostyantyn' 		, }, 
 		{ k: 'Ціна' 					, v: '270 грн' 			, },
-		{ backspace: true },
-
 	],
 },
 {
@@ -751,19 +702,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Позиція в блоці реле' 	, v: '12' 				, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-04' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '270 грн' 				, },
-		{ backspace: true },
-
 	],
 },
 {
-	id: '20251202_ct_630', date: '2025-12-02', title: 'Ремінь ГРМ', descr: 'Contitech ...заміна', 
+	id: '20251202_ct_630', date: '2025-12-02', title: 'Ремінь ГРМ', descr: '...заміна ( 329300 км )', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 						, v: '329304 км' 			, },
+		{ mileage: 329300 },
+		{ station: 'merefa_auto_service_center' , }, 
 
 		{ k: 'Рекомендована заміна' 		, v: '+ 60 т.км' 			, },
 		{ k: '' 							, v: '~ 389000 км' 			, },
@@ -773,18 +721,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код' 							, v: 'CT 630.0433 10022022' 	, }, // замовлено, але не перевірено
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-02' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '630 грн' 				, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251202_ina', date: '2025-12-02', title: 'Ролик ГРМ', descr: 'INA ...заміна', 
+	id: '20251202_ina', date: '2025-12-02', title: 'Ролик ГРМ', descr: '...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 						, v: '329304 км' 			, },
+		{ mileage: 329300 },
+		{ station: 'merefa_auto_service_center' , }, 
 
 		{ k: 'Рекомендована заміна' 		, v: '+ 60 т.км' 			, },
 		{ k: '' 							, v: '~ 389000 км' 			, },
@@ -793,18 +739,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ manufacturer: 'ina' 				, }, // замовлено, але не перевірено
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-02' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '700 грн' 				, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251202_ct_6_pk_1153', date: '2025-12-02', title: 'Ремінь полікліновий', descr: 'Contitech ...заміна', 
+	id: '20251202_ct_6_pk_1153', date: '2025-12-02', title: 'Ремінь полікліновий', descr: '...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 						, v: '329304 км' 			, },
+		{ mileage: 329300 },
+		{ station: 'merefa_auto_service_center' , }, 
 
 		{ k: 'Рекомендована заміна' 		, v: '+ 60 т.км' 			, },
 		{ k: '' 							, v: '~ 389000 км' 			, },
@@ -814,18 +758,16 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код' 							, v: 'CT 6 PK 1153' 		, }, // замовлено, але не перевірено
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-02' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '550 грн' 				, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251202_gates', date: '2025-12-02', title: 'Ремінь клиновий', descr: 'Gates ...заміна', 
+	id: '20251202_gates', date: '2025-12-02', title: 'Ремінь клиновий', descr: '...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 						, v: '329304 км' 			, },
+		{ mileage: 329300 },
+		{ station: 'merefa_auto_service_center' , }, 
 
 		{ k: 'Рекомендована заміна' 		, v: '+ 60 т.км' 			, },
 		{ k: '' 							, v: '~ 389000 км' 			, },
@@ -835,28 +777,24 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Код' 							, v: '6389 MC' 	, }, // замовлено, але не перевірено
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-02' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '240 грн' 				, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251202_febi', date: '2025-12-02', title: 'Масло КПП', descr: 'Febi ...заміна', 
+	id: '20251202_febi', date: '2025-12-02', title: 'Масло КПП', descr: '...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center' , }, // Денищенко Віталій
-		{ k: 'Пробіг' 						, v: '329304 км' 			, },
+		{ mileage: 329300 },
+		{ station: 'merefa_auto_service_center' , }, 
 
 		{ manufacturer: 'febi' 			, },
 		{ k: '' 					, v: 'SAE 75W ( GL-4 )' 	, },
 		{ k: 'Код' 					, v: '21829' 				, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-02' 									, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '~ 1100 грн за 2 л ( 2 бутилки по 1 л )' 		, },
-		{ backspace: true },
 	],
 },
 {
@@ -883,14 +821,13 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Телефони' 		, v: '+38095-310-69-60' 	,  },
 		{ k: 'Телефони' 		, v: '+38093-702-88-68' 	,  },
 		{ k: 'Ціна' 			, v: '2941 грн' 			,  },
-
 	],
 },
 {
-	id: '20251201_zse001', date: '2025-12-01', title: 'Котушка запалювання', descr: 'Beru ...заміна', 
+	id: '20251201_zse001', date: '2025-12-01', title: 'Котушка запалювання', descr: '...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329300 км' 	, },
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'beru', },
@@ -898,21 +835,19 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: '№' 					, v: 'E2019402001' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '1100 грн' 			, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251201_zef561', date: '2025-12-01', title: 'Провода високовольтні свічні', descr: 'Beru ZEF561 ...заміна', 
+	id: '20251201_zef561', date: '2025-12-01', title: 'Провода високовольтні свічні', descr: 'Beru ZEF 561 ...заміна', 
 	keyval: [
-		
-		{ k: 'Пробіг' 				, v: '329300 км' 	, },
+
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'beru', },
-		{ k: 'Код' 					, v: 'ZEF561' 						, },
+		{ k: 'Код' 					, v: 'ZEF 561' 						, },
 		{ k: 'Штекери' 				, v: 'Beru ZLE 205 ( металеві )' 	, },
 		{ backspace: true },
 
@@ -924,17 +859,15 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: '5 ( загальний )' 		, v: '1.95 кОм' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 								, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '1700 грн за 1 комплект ( з 5 проводів )' 	, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251201_denso', date: '2025-12-01', title: 'Свічки запалювання', descr: 'Denso W20EPBR-S ...заміна', 
+	id: '20251201_denso', date: '2025-12-01', title: 'Свічки запалювання', descr: 'Denso ...заміна', 
 	keyval: [
-		
-		{ k: 'Пробіг' 				, v: '329300 км' 		, },
+
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'denso', },
@@ -942,69 +875,62 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: '' 					, v: '3-пелюсткові' 	, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 		, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '600 грн за 4 шт' 	, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251201_febi', date: '2025-12-01', title: 'Кнопка вмикання ліхтарів заднього ходу', descr: 'Febi ...заміна', 
+	id: '20251201_febi', date: '2025-12-01', title: 'Кнопка вмикання ліхтарів заднього ходу', descr: '...заміна', 
 	keyval: [
-		
-		{ k: 'Пробіг' 				, v: '329300 км' 		, },
+
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'febi', },
 		{ k: 'Код VAG' 				, v: '02A945413C' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 		, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '300 грн' 			, },
-		{ backspace: true },
 	],
 },
 {
-	id: '20251201_wa6167', date: '2025-12-01', title: 'Фільтр повітряний ( ДМРВ )', descr: 'Wix WA6167 ...заміна', 
+	id: '20251201_wa6167', date: '2025-12-01', title: 'Фільтр повітряний ( ДМРВ )', descr: '...заміна', 
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329300 км' 	, },
+		{ mileage: 329300 },
 		{ backspace: true },
 
 		{ manufacturer: 'wix', },
-		{ k: 'Код' 					, v: 'WA6167' 		, },
+		{ k: 'Код' 					, v: 'WA 6167' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 		, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
+		{ k: 'Ціна' 				, v: '250 грн' 			, },
+	],
+},
+{
+	id: '20251201_wp6890', date: '2025-12-01', title: 'Фільтр салона', descr: ' ...заміна', 
+	keyval: [
+		
+		{ mileage: 329300 },
+		{ backspace: true },
+
+		{ manufacturer: 'wix', },
+		{ k: 'Код' 					, v: 'WP 6890' 		, },
+		{ backspace: true },
+
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '250 грн' 			, },
 		{ backspace: true },
 	],
 },
 {
-	id: '20251201_wp6890', date: '2025-12-01', title: 'Фільтр салона', descr: 'Wix WP6890 ...заміна', 
+	id: '20251126_oil', date: '2025-11-26', title: 'Масло моторне', descr: 'Liqui Moly  ...заміна ( 329190 км )', mark: { motoroil: 1, },
 	keyval: [
 		
-		{ k: 'Пробіг' 				, v: '329300 км' 	, },
-		{ backspace: true },
-
-		{ manufacturer: 'wix', },
-		{ k: 'Код' 					, v: 'WP6890' 		, },
-		{ backspace: true },
-
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-12-01' 		, },
-		{ k: 'Ціна' 				, v: '250 грн' 			, },
-		{ backspace: true },
-	],
-},
-{
-	id: '20251126_oil', date: '2025-11-26', title: 'Масло моторне', oil: 1, descr: 'Liqui Moly ...заміна', 
-	keyval: [
-		
-		{ station: 'merefa_auto_service_center', }, // Денищенко Віталій
-		{ k: 'Пробіг' 				, v: '329190 км' 			, },
+		{ mileage: 329190 },
+		{ station: 'merefa_auto_service_center', }, 
 		{ backspace: true },
 
 		{ k: '--- Масло моторне' 	, v: '' 					, },
@@ -1015,66 +941,22 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Бар-код' 				, v: '4 100420 021848' 		, },
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-11-26' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '2000 грн за 5 л' 		, },
-		{ backspace: true },
-
 	],
 },
 {
 	id: '20251126_filter', date: '2025-11-26', title: 'Фільтр масляний', descr: '...заміна', 
 	keyval: [
 		
-		{ station: 'merefa_auto_service_center', }, // Денищенко Віталій
-		{ k: 'Пробіг' 				, v: '329190 км' 			, },
+		{ mileage: 329190 },
+		{ station: 'merefa_auto_service_center', }, 
 		{ backspace: true },
 
-		{ shop: 'kharkiv_losk_2_4' 	, }, // Кравцов Максим
-		{ k: 'Дата' 				, v: '2025-11-26' 			, },
+		{ shop: 'kravcov_maxym_kostyantyn' 	, }, 
 		{ k: 'Ціна' 				, v: '200 грн' 		, },
-		{ backspace: true },
-
 	],
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1082,6 +964,9 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 ];
+
+
+
 
 
 

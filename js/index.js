@@ -59,10 +59,14 @@ function showSpoilers( arr ) {
 			k_spoiler.keyval.forEach( k_keyval => {
 				//console.log( k_keyval );
 
+
+				// пропуск рядка
 				if ( k_keyval.backspace ) 
 					htmlTBody += `<tr><td class="td-separator" colspan="2">&nbsp;</td></tr>`;
 				
 
+
+				// Виробник
 				if ( k_keyval.manufacturer ) {
 
 					let htmlVal = '';
@@ -108,9 +112,46 @@ function showSpoilers( arr ) {
 
 
 
+				// пробіг
+				if ( k_keyval.mileage ) {
+					htmlTBody += `<tr>
+						<td class="txt-key">Пробіг</td>
+						<td class="txt-val">${ k_keyval.mileage } км</td>
+					</tr>`;
+				}
 
+
+
+				// СТО
+				if ( k_keyval.station ) {
+					//console.log( k_keyval.station );
+
+					//console.log( objListStation );
+
+					if ( objListStation && objListStation[ k_keyval.station ] ) {
+
+						let objStation = objListStation[ k_keyval.station ];
+
+						let stationTitle = objStation.title ? objStation.title : '';
+						if ( objStation.gps ) {
+
+							let stationClue = objStation.address ? `title="${ objStation.address }"` : '';
+
+							stationTitle = `<a href="${ objStation.gps }" ${ stationClue } target="_blank">${ stationTitle }${ htmlLinkSign }</a>`;
+						} 
+						//console.log( objStation );
+
+						htmlTBody += `<tr>
+							<td class="txt-key">СТО</td>
+							<td class="txt-val">${ stationTitle }</td>
+						</tr>`;
+					}
+				}
+
+
+
+				// магазин
 				if ( k_keyval.shop ) {
-
 
 					//console.log( k_keyval.shop  );
 					//console.log( objListShop  );
@@ -132,7 +173,7 @@ function showSpoilers( arr ) {
 
 								let shopClue = '';
 								if ( objShop.address ) {
-									shopClue = `title="${ objShop.address }"`;
+									shopClue = `title="${ objShop.address } ( на карті )"`;
 								}
 
 								htmlVal =`<a href="${ objShop.gps }" ${ shopClue } target="_blank">${ objShop.title }${ htmlLinkSign }</a>`;
@@ -149,7 +190,7 @@ function showSpoilers( arr ) {
 
 
 
-
+				// звичайний кейвал
 				if ( k_keyval.k || k_keyval.v ) {
 
 					let htmlKey = k_keyval.k ;
@@ -157,11 +198,13 @@ function showSpoilers( arr ) {
 
 
 					if ( k_keyval.href ) 
-						htmlVal = `<a href="${ k_keyval.href }" title="Магазин або приклад" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
+						htmlVal = `<a href="${ k_keyval.href }" title="Товар на сайті магазину, або інший приклад" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
 
+
+/*
 					if ( k_keyval.gps ) 
 						htmlVal = `<a href="${ k_keyval.gps }" title="GPS" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
-
+*/
 
 
 
@@ -194,12 +237,10 @@ function showSpoilers( arr ) {
 			//console.log( htmlBody );
 		}
 
-/*
-		let clsOil = '';
-		if ( k_spoiler.oil ) 
-			clsOil = 'oil';
-		*/
 
+
+
+/*
 		let htmlDate = '';
 		if ( k_spoiler.date ) {
 
@@ -211,7 +252,16 @@ function showSpoilers( arr ) {
 				htmlDate = `<span class="spoiler-title-date">${ k_spoiler.date }</span>`;
 
 		}
-		
+*/
+
+
+		if ( k_spoiler.date ) 
+			htmlDate = `<span class="spoiler-title-date">${ k_spoiler.date }</span>`;
+
+
+
+
+
 		let htmlDescr = '';
 		if ( k_spoiler.descr  ) 
 			htmlDescr = `<span class="spoiler-title-descr">${ k_spoiler.descr }</span>`;
@@ -219,10 +269,24 @@ function showSpoilers( arr ) {
 
 
 
+		let htmlSpoilerTitle = k_spoiler.title;
+		let clsMark = '';
+
+		if ( k_spoiler.mark ) {
+
+			if ( k_spoiler.mark.motoroil ) 
+				clsMark = 'mark-oil';
+
+		}
+
+		
+		htmlSpoilerTitle = `<span class="${ clsMark }">${ htmlSpoilerTitle }</span>`;
+
+
 
 
 		htmlSpoilers += `<div class="spoiler" data-id="${ k_spoiler.id }">
-			<div class="spoiler-title" onmousedown="return false;">${ htmlDate } ${ k_spoiler.title } ${ htmlDescr }</div>
+			<div class="spoiler-title" onmousedown="return false;">${ htmlDate } ${ htmlSpoilerTitle } ${ htmlDescr }</div>
 			<div class="spoiler-body" hidden>${ htmlBody }</div>
 		</div>`;
 	});
