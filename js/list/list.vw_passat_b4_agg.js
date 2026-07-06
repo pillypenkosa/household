@@ -14,70 +14,6 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
-// ------------------------------------------------------------------------------------------------------------------------------------------------d
-
-
-{ 
-	id: '20200805', date: '2025-11-26', title: 'VW Passat B4', descr: 'двигун AGG ( 329147 км )', 
-	keyval: [
-		
-		{ k: '--- Автомобіль' 		, v: 'VW Passat B4' 			, },
-		{ k: 'Рік випуску' 	 		, v: '1995' 					, },
-		{ k: 'WIN' 					, v: 'WVWZZZ3AZSE138149' 		, },
-		{ backspace: true },
-
-		{ k: 'Дата' 				, v: '2025-11-26' 				, },
-		{ mileage: 329147 },
-
-		{ backspace: true },
-
-
-
-		{ k: '--- Кузов' 			, v: 'Універсал' 			, },
-		{ backspace: true },
-
-
-
-		{ k: '--- Двигун' 		, v: '' 						, },
-		{ k: 'Об\'єм' 			, v: '1984 см<sup>3</sup>' 		, },
-		{ k: 'Код' 				, v: 'AGG' 						, },
-		{ backspace: true },
-
-
-
-		{ k: '--- КПП' 			, v: '' 				, },
-		{ k: 'код' 				, v: 'CEW' 				, },
-		{ k: 'Тип' 				, v: '02A' 				, },
-		{ k: '' 				, v: '5-механічна' 		, },
-
-		{ k: '--- інші' 		, v: '' 				, },
-		{ k: 'код' 				, v: 'CNL' 				, },
-		{ k: 'VAG' 				, v: '02A300048H' 		, },
-		
-		{ k: 'код' 				, v: 'CRU' 				, },
-		{ k: 'VAG' 				, v: '02A300048K' 		, },
-		{ backspace: true },
-
-
-
-
-		{ k: '--- Магнітола' 		, v: '' 					, },
-
-		{ manufacturer: 'kenwood', },
-		{ k: 'Модель' 				, v: 'KDC-3057U' 	, },
-		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href: 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
-		{ k: 'Інструкція' 			, v: 'mcgrp.ru' 			, href: 'https://mcgrp.ru/files/viewer/924371/1', },
-
-
-	],
-},
-
-
-
-
-
-
-
 
 
 
@@ -95,10 +31,96 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+{
+	id: '20250706_', date: '2026-07-06', title: 'Захист картеру двигуна', descr: '...встановлення', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Захист картеру двигуна' 				, v: '' 		, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Дата' 						, v: '2026-06-24' 		, },
+		{ k: 'Ціна' 						, v: '3800 грн' 		, },
+	],
+},
+{
+	id: '20250706_injector', date: '2026-07-06', title: 'Форсунки', descr: '...діагностика', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Форсунки' 				, v: 'діагностика' 		, },
+		{ backspace: true },
+	],
+},
+{
+	id: '20250706_purflux', date: '2026-07-06', title: 'Фільтр паливний', descr: 'Purflux ...заміна', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 			, },
+
+		{ k: 'Фільтр паливний' 		, v: '' 				, },
+		{ manufacturer: 'purflux', },
+		{ k: 'Код' 					, v: 'EP 90 C' 			, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Штрих-код' 			, v: '3 286061 702269' 	, },
+		{ k: 'Дата' 				, v: '2026-06-18' 		, },
+	],
+},
 
 
 
 
+
+{
+	id: '20250706_', date: '2026-07-06', title: 'Котушка запалювання', descr: 'Bremi...заміна', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Котушка запалювання' 		, v: '' 	, },
+		{ manufacturer: 'bremi', },
+		{ backspace: true },
+	
+		{ k: 'Магазин' 		, v: 'на СТО' 			, },
+	],
+},
+{
+	id: '20250706_', date: '2026-07-06', title: 'Кришка трамблера', descr: 'Bremi...заміна', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Кришка трамблера' 		, v: '' 	, },
+		{ manufacturer: 'bremi', },
+		{ backspace: true },
+	
+		{ k: 'Магазин' 		, v: 'на СТО' 			, },
+	],
+},
+{
+	id: '20250706_', date: '2026-07-06', title: 'Бігунок трамблера', descr: 'Bremi...заміна', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Бігунок трамблера' 		, v: '' 	, },
+		{ manufacturer: 'bremi', },
+		{ backspace: true },
+	
+		{ k: 'Магазин' 		, v: 'на СТО' 			, },
+	],
+},
 {
 	id: '20250626_locker', date: '2026-06-26', title: 'Захист арок колес', descr: '...покупка', 
 	keyval: [
@@ -123,28 +145,7 @@ const arrList_VW_Passat_B4_AGG = [
 		{ shop: 'kravcov_maxym_kostyantyn' },
 	],
 },
-{
-	id: '20250624', date: '2026-06-24', title: 'Захист картеру двигуна', descr: '...покупка', 
-	keyval: [
-		{ k: 'Захист картеру двигуна' 		, v: '' 				, },
-		{ backspace: true },
-	
-		{ shop: 'kravcov_maxym_kostyantyn' },
-		{ k: 'Ціна' 						, v: '3800 грн' 		, },
-	],
-},
-{
-	id: '20250618', date: '2026-06-18', title: 'Фільтр паливний', descr: 'Purflux ...покупка', 
-	keyval: [
-		{ k: 'Фільтр паливний' 		, v: '' 				, },
-		{ manufacturer: 'purflux', },
-		{ k: 'Код' 					, v: 'EP 90 C' 			, },
-		{ backspace: true },
-	
-		{ shop: 'kravcov_maxym_kostyantyn' },
-		{ k: 'Штрих-код' 			, v: '3 286061 702269' 		, },
-	],
-},
+
 {
 	id: '20260616_', date: '2026-06-16', title: 'ГБО-4', descr: '...заміна старого обладнання ( 330900 км )', 
 	keyval: [
@@ -957,6 +958,88 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Ціна' 				, v: '200 грн' 		, },
 	],
 },
+
+
+
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------d
+
+
+{ 
+	id: '20200805', date: '2025-11-26', title: 'VW Passat B4', descr: 'двигун AGG ( 329147 км )', 
+	keyval: [
+		
+		{ k: '--- Автомобіль' 		, v: 'VW Passat B4' 			, },
+		{ k: 'Рік випуску' 	 		, v: '1995' 					, },
+		{ k: 'WIN' 					, v: 'WVWZZZ3AZSE138149' 		, },
+		{ backspace: true },
+
+		{ k: 'Дата' 				, v: '2025-11-26' 				, },
+		{ mileage: 329147 },
+
+		{ backspace: true },
+
+
+
+		{ k: '--- Кузов' 			, v: 'Універсал' 			, },
+		{ backspace: true },
+
+
+
+		{ k: '--- Двигун' 		, v: '' 						, },
+		{ k: 'Об\'єм' 			, v: '1984 см<sup>3</sup>' 		, },
+		{ k: 'Код' 				, v: 'AGG' 						, },
+		{ backspace: true },
+
+
+
+		{ k: '--- КПП' 			, v: '' 				, },
+		{ k: 'код' 				, v: 'CEW' 				, },
+		{ k: 'Тип' 				, v: '02A' 				, },
+		{ k: '' 				, v: '5-механічна' 		, },
+
+		{ k: '--- інші' 		, v: '' 				, },
+		{ k: 'код' 				, v: 'CNL' 				, },
+		{ k: 'VAG' 				, v: '02A300048H' 		, },
+		
+		{ k: 'код' 				, v: 'CRU' 				, },
+		{ k: 'VAG' 				, v: '02A300048K' 		, },
+		{ backspace: true },
+
+
+
+
+		{ k: '--- Магнітола' 		, v: '' 					, },
+
+		{ manufacturer: 'kenwood', },
+		{ k: 'Модель' 				, v: 'KDC-3057U' 	, },
+		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href: 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
+		{ k: 'Інструкція' 			, v: 'mcgrp.ru' 			, href: 'https://mcgrp.ru/files/viewer/924371/1', },
+
+
+	],
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

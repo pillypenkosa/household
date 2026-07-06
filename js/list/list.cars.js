@@ -16,6 +16,80 @@ const arrListCars = [
 
 // ----------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
+
+{
+	id: '20230502_vag_com', date: '2023-05-02', title: 'Адаптер діагностичний', descr: 'VAG COM', 
+	keyval: [
+		{ k: 'Адаптер діагностичний' 	, v: 'VAG COM 22.3' 	, },
+		{ k: 'Відеоінструкція' 			, v: 'youtube.com' 		, href: 'https://www.youtube.com/watch?v=OZlzpd1M7Mw' , },
+		{ k: 'Прога' 					, v: 'drive.google.com' , href: 'https://drive.google.com/file/d/1BAckpBdCncuTk9622DknMWn52ZZscO2R/view' , },
+		{ k: 'Продавець' 				, v: 'prom.ua'  		, href: 'https://kharkov.prom.ua/ua/p1700609345-diagnosticheskij-adapter-vcds.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android' , },
+		{ k: 'Ціна' 					, v: '840 грн' 			, },
+	],
+},
+{
+	id: '20230428_xado', date: '2023-04-28', title: 'Очисник контактів', descr: 'Xado', 
+	keyval: [
+		{ k: 'Очисник контактів' 	, v: 'Xado Verylube' 	, },
+		{ k: 'Продавець' 			, v: 'xado.com'			, href: 'https://xado.com/avtomobilnaya-himiya/ochistiteli-razlichnih-sistem-avtomobilya/ochistitel-kontaktov-s-effektom-udaleniya-vlagi' , },
+
+		{ k: 'Ціна' 				, v: '135 грн' 			, },
+	],
+},
+{
+	id: '20221028_cleaner', date: '2022-10-28', title: 'Спрей', descr: 'Carb Cleaner', 
+	keyval: [
+		{ k: 'Спрей' 		, v: 'Carb Cleaner' 	, },
+		{ k: 'Продавець' 	, v: 'Лоск 2/4, Макс' 	, },
+		{ k: 'Ціна' 		, v: '150 грн' 			, },
+	],
+},
+{
+	id: '20220607_dnipro_m', date: '2022-06-07', title: 'Пристрій зарядний', descr: 'Dnipro-M', 
+	keyval: [
+		{ k: 'Пристрій зарядний' 	, v: 'Dnipro-M' 				, },
+		{ k: 'Модель' 				, v: 'BC-16' 					, },
+		{ k: 'Призначення' 			, v: 'для акумулятора авто' 	, },
+		{ k: 'Продавець' 			, v: 'Dnipro-M' 				, href: 'https://dnipro-m.ua/tovar/zaryadnoe-ystroistvo-cb-16s/?tab=description', },
+		{ k: '' 					, v: 'Dnipro-M' 				, gps: 'https://maps.app.goo.gl/YFGbJ8g1weQLDe4Z7', },
+		{ k: 'Ціна' 				, v: '1800 грн' 				, },
+	],
+},
+{
+	id: '20220516_canister', date: '2022-05-16', title: 'Каністра', descr: 'пластикова 20 л', 
+	keyval: [
+		{ k: 'Каністра' 	, v: 'пластикова (червона)' , },
+		{ k: 'Призначення' 	, v: 'для бензину' 			, },
+		{ k: 'Об\'єм' 		, v: '20 л' 				, },
+		{ k: 'Продавець' 	, v: 'Автоград' 			, },
+		{ k: 'Ціна' 		, v: '600 грн' 				, },
+	],
+},
+{
+	id: '20220516_funnel ', date: '2022-05-16', title: 'Лійка', descr: 'воронка', 
+	keyval: [
+		{ k: 'Лійка' 		, v: 'воронка пластикова чорна' 	, },
+		{ k: 'Призначення' 	, v: 'для бензину' 					, },
+		{ k: 'Продавець' 	, v: 'Автоград' 					, },
+		{ k: 'Ціна' 		, v: '100 грн' 						, },
+	],
+},
+{
+	id: '20211209_winso', date: '2021-12-09', title: 'Компресор', descr: 'Winso', 
+	keyval: [
+		{ k: 'Компресор' 	, v: 'Winso' 		, },
+		{ k: 'Призначення' 	, v: 'для колес' 	, },
+		{ k: 'Продавець' 	, v: 'Лоск 11/49' 	, },
+		{ k: 'Ціна' 		, v: '0 грн' 		, },
+	],
+},
+
+
+
+
 { 
 	id: '20200805', date: '2020-08-05', title: 'VW Passat B4', descr: '...характеристики', 
 	keyval: [
@@ -207,75 +281,6 @@ const arrListCars = [
 
 	],
 },
-{
-	id: '20230502_vag_com', date: '2023-05-02', title: 'Адаптер діагностичний', descr: 'VAG COM', 
-	keyval: [
-		{ k: 'Адаптер діагностичний' 	, v: 'VAG COM 22.3' 	, },
-		{ k: 'Відеоінструкція' 			, v: 'youtube.com' 		, href: 'https://www.youtube.com/watch?v=OZlzpd1M7Mw' , },
-		{ k: 'Прога' 					, v: 'drive.google.com' , href: 'https://drive.google.com/file/d/1BAckpBdCncuTk9622DknMWn52ZZscO2R/view' , },
-		{ k: 'Продавець' 				, v: 'prom.ua'  		, href: 'https://kharkov.prom.ua/ua/p1700609345-diagnosticheskij-adapter-vcds.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android' , },
-		{ k: 'Ціна' 					, v: '840 грн' 			, },
-	],
-},
-{
-	id: '20230428_xado', date: '2023-04-28', title: 'Очисник контактів', descr: 'Xado', 
-	keyval: [
-		{ k: 'Очисник контактів' 	, v: 'Xado Verylube' 	, },
-		{ k: 'Продавець' 			, v: 'xado.com'			, href: 'https://xado.com/avtomobilnaya-himiya/ochistiteli-razlichnih-sistem-avtomobilya/ochistitel-kontaktov-s-effektom-udaleniya-vlagi' , },
-
-		{ k: 'Ціна' 				, v: '135 грн' 			, },
-	],
-},
-{
-	id: '20221028_cleaner', date: '2022-10-28', title: 'Спрей', descr: 'Carb Cleaner', 
-	keyval: [
-		{ k: 'Спрей' 		, v: 'Carb Cleaner' 	, },
-		{ k: 'Продавець' 	, v: 'Лоск 2/4, Макс' 	, },
-		{ k: 'Ціна' 		, v: '150 грн' 			, },
-	],
-},
-{
-	id: '20220607_dnipro_m', date: '2022-06-07', title: 'Пристрій зарядний', descr: 'Dnipro-M', 
-	keyval: [
-		{ k: 'Пристрій зарядний' 	, v: 'Dnipro-M' 				, },
-		{ k: 'Модель' 				, v: 'BC-16' 					, },
-		{ k: 'Призначення' 			, v: 'для акумулятора авто' 	, },
-		{ k: 'Продавець' 			, v: 'Dnipro-M' 				, href: 'https://dnipro-m.ua/tovar/zaryadnoe-ystroistvo-cb-16s/?tab=description', },
-		{ k: '' 					, v: 'Dnipro-M' 				, gps: 'https://maps.app.goo.gl/YFGbJ8g1weQLDe4Z7', },
-		{ k: 'Ціна' 				, v: '1800 грн' 				, },
-	],
-},
-{
-	id: '20220516_canister', date: '2022-05-16', title: 'Каністра', descr: 'пластикова 20 л', 
-	keyval: [
-		{ k: 'Каністра' 	, v: 'пластикова (червона)' , },
-		{ k: 'Призначення' 	, v: 'для бензину' 			, },
-		{ k: 'Об\'єм' 		, v: '20 л' 				, },
-		{ k: 'Продавець' 	, v: 'Автоград' 			, },
-		{ k: 'Ціна' 		, v: '600 грн' 				, },
-	],
-},
-{
-	id: '20220516_funnel ', date: '2022-05-16', title: 'Лійка', descr: 'воронка', 
-	keyval: [
-		{ k: 'Лійка' 		, v: 'воронка пластикова чорна' 	, },
-		{ k: 'Призначення' 	, v: 'для бензину' 					, },
-		{ k: 'Продавець' 	, v: 'Автоград' 					, },
-		{ k: 'Ціна' 		, v: '100 грн' 						, },
-	],
-},
-{
-	id: '20211209_winso', date: '2021-12-09', title: 'Компресор', descr: 'Winso', 
-	keyval: [
-		{ k: 'Компресор' 	, v: 'Winso' 		, },
-		{ k: 'Призначення' 	, v: 'для колес' 	, },
-		{ k: 'Продавець' 	, v: 'Лоск 11/49' 	, },
-		{ k: 'Ціна' 		, v: '0 грн' 		, },
-	],
-},
-
-
-
 
 
 
