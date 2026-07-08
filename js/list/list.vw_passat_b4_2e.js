@@ -16,8 +16,6 @@ const arrList_VW_Passat_B4_2e = [
 
 
 
-
-
 // Service ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -154,16 +152,6 @@ const arrList_VW_Passat_B4_2e = [
 		{ k: 'Ціна' 				, v: '250 грн' 			, },
 	],
 },
-
-
-
-
-
-
-
-
-
-
 {
 	id: '20260411_mirror', date: '2026-04-11', title: 'Дзеркало', descr: 'пасажирське ...заміна', 
 	keyval: [
@@ -175,7 +163,7 @@ const arrList_VW_Passat_B4_2e = [
 		{ k: '' 				, v: 'Скло, відображуючий елемент' 		, },
 		{ k: 'Призначення' 		, v: 'Праве пасажирське ( Passat 2E )' 	, },
 
-		{ k: 'Продавець' 		, v: 'dok.ua' 					, href: 'https://dok.ua/ua/art-6402154-alkar-74839?showAnalogs=true&artNum=357857522&brandId=2268&utm_source=google&utm_medium=cpc&utm_campaign=22511470317&utm_content=&utm_term=&utm_id=&gad_source=1&gad_campaignid=22511468397&gbraid=0AAAAAC8xs_807On9It109Mxy08htNvToP&gclid=CjwKCAjwnN3OBhA8EiwAfpTYeqb20bmitvAQsUCkXXBR2lo9HRFq4UZ0LCcnGh7aih7qqVtdqF_hgRoC09MQAvD_BwE', },
+		{ k: 'e-Магазин' 		, v: 'dok.ua' 					, href: 'https://dok.ua/ua/art-6402154-alkar-74839?showAnalogs=true&artNum=357857522&brandId=2268&utm_source=google&utm_medium=cpc&utm_campaign=22511470317&utm_content=&utm_term=&utm_id=&gad_source=1&gad_campaignid=22511468397&gbraid=0AAAAAC8xs_807On9It109Mxy08htNvToP&gclid=CjwKCAjwnN3OBhA8EiwAfpTYeqb20bmitvAQsUCkXXBR2lo9HRFq4UZ0LCcnGh7aih7qqVtdqF_hgRoC09MQAvD_BwE', },
 		{ k: 'Дата' 			, v: '2026-04-11' 				, },
 		{ k: 'Ціна' 			, v: '275 грн' 					, },
 	],
@@ -863,7 +851,7 @@ const arrList_VW_Passat_B4_2e = [
 	],
 },
 {
-	id: '20220905_goodyear', date: '2022-09-05', title: 'Шини', descr: 'Goodyear ...заміна', 
+	id: '20220905_goodyear', date: '2022-09-05', title: 'Шини ( покришки )', descr: 'Goodyear ...заміна', 
 	keyval: [
 		{ k: 'Шини 185/65/R14' 	, v: 'Goodyear UltraGrip Ice 2' , },
 		{ k: 'Маркування' 		, v: '185/65/R14 86 T M+S' 		, },

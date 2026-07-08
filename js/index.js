@@ -201,10 +201,10 @@ function showSpoilers( arr ) {
 						htmlVal = `<a href="${ k_keyval.href }" title="Товар на сайті магазину, або інший приклад" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
 
 
-/*
+
 					if ( k_keyval.gps ) 
 						htmlVal = `<a href="${ k_keyval.gps }" title="GPS" target="_blank">${ htmlVal }${ htmlLinkSign }</a>`;
-*/
+
 
 
 

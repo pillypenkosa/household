@@ -1016,12 +1016,37 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+
+		{ k: '--- Шини' 			, v: '' 		, },
+		{ k: 'Tunga Nordway 2' 		, v: '' 		, },
+		{ k: '185 / 65 / R14' 		, v: '' 								, },
+		{ k: '86 Q' 				, v: '530 кг, 160 км/г' 				, },
+		{ k: 'M + S' 				, v: 'Mud and Snow, бруд і сніг' 		, },
+
+
+
+
+
+		{ backspace: true },
+
+
+
+
+
+
 		{ k: '--- Магнітола' 		, v: '' 					, },
 
 		{ manufacturer: 'kenwood', },
 		{ k: 'Модель' 				, v: 'KDC-3057U' 	, },
 		{ k: 'Приклад' 				, v: 'tehnostar.com.ua' 	, href: 'https://tehnostar.com.ua/avtomagnitoly/Kenwood_KDC-3057.html?srsltid=AfmBOoqkfwMAGk5ombnhZNtB8XVTVQBNwhNx7omPMVY8mhLNRAH3Rmi5', },
 		{ k: 'Інструкція' 			, v: 'mcgrp.ru' 			, href: 'https://mcgrp.ru/files/viewer/924371/1', },
+
+
+
+
+
+
+
 
 
 	],
