@@ -26,8 +26,9 @@ const arrListNavBtns = [
 		{ id: 'warstore' 		, title: 'Військторг' 		, },
 	],
 	[
-		{ id: 'service' 		, title: 'Послуги' 			, },
+		{ id: 'shops' 			, title: 'Магазини' 		, },
 		{ id: 'select' 			, title: 'Вибір' 			, },
+		{ id: 'service' 		, title: 'Послуги' 			, },
 		//{ id: 'other' 			, title: 'Інше' 			, },
 	],
 ];

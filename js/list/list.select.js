@@ -17,6 +17,27 @@ const arrListSelect = [
 	id: 'shop_charging_station', title: 'Зарядні станції', type: 'вибір', cat: { shop: 1, },
 	keyval: [
 
+
+
+
+
+		//{ k: 'Oukitel P2001E Pro' 			, v: 'electronicapro.com.ua ( 36490 грн )' 	, href: 'https://electronicapro.com.ua/zariadna-stantsiia-oukitel-p2001e-pro-3200-vt-2048-vthod-lifepo4', },
+
+
+
+
+
+		{ k: 'Bluetti B700 ( батарея )' 			, v: 'elmir.ua ( 127000 грн )' 	, href: 'https://elmir.ua/ua/aksessuary_k_zaryadnym_stantsiyam/additional-battery-bluetti-b700-novat-7372-8wh.html', },
+
+
+
+
+
+
+
+
+
+
 		{ k: 'EcoFlow DELTA 3' 					, v: 'prom.ua ( 36850 грн )' 	, href: 'https://prom.ua/ua/m5370450233234829607-portativnaya-elektrostantsiya-ecoflow.html?p=2901916733', },
 		{ k: 'Bluetti Premium 100 V2' 			, v: 'prom.ua ( 44687 грн )' 	, href: 'https://prom.ua/ua/m-552248763068070301-zaryadna-stantsiya-bluetti.html?p=2865577173', },
 		//{ k: 'EcoFlow DELTA 3' 					, v: 'prom.ua ( 47999 грн )' 	, href: 'https://prom.ua/ua/m7620941634501787398-portativnaya-zaryadnaya-stantsiya.html?p=2859893934', },

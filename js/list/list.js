@@ -57,11 +57,9 @@ const arrList = [
 		{ k: '' 					, v: '410 Lm' 				, },
 
 		{ k: 'BarCode' 				, v: '4 820246 481069' 		, },
-
-		{ k: 'Магазин' 				, v: 'біля Мілітаріста, пр. Аерокосмічний, 20а'  }, 
-		{ k: '' 					, v: 'Десь тут' 			, href: 'https://maps.app.goo.gl/4QAw3k4sAZLyjShv7', }, 
 		{ backspace: true },
 
+		{ shop: 'kharkiv_tactic_4_profi' },
 		{ k: 'Ціна' 				, v: '1090 грн' 			, },
 	],
 },
@@ -370,9 +368,9 @@ const arrList = [
 	keyval: [
 		{ k: 'Машинка для стрижки' 	, v: 'Maxtop Dragon Hair Clipper' 	, },
 		{ k: 'Модель' 				, v: 'M 99' 						, },
-		{ k: 'Магазин' 				, v: 'MobiWorld' 					, gps: 'https://maps.app.goo.gl/JR38CkZZmcePUvxZ7', }, // кіоск в супермаркеті Чудо
 		{ backspace: true },
 
+		{ shop: 'slovyansk_mobiworld', },
 		{ k: 'Ціна' 				, v: '280 грн' 						, },
 	],
 },
@@ -523,6 +521,17 @@ const arrList = [
 		{ backspace: true },
 
 		{ k: 'Ціна' 			, v: '3650 грн' 						, },
+	],
+},
+{
+	id: '20230520_hot_air_blower', date: '2023-05-20', descr: 'Dnipro-M', title: 'Фен промисловий', cat: { tools: 1, },
+	keyval: [
+		{ k: 'Фен' 			, v: 'Dnipro-M' 	, },
+		{ k: 'Модель' 		, v: 'GH-201N' 		, },
+		{ k: 'Товар' 		, v: 'dnipro-m.ua' 	, href: 'https://dnipro-m.ua/tovar/fen-promyshlennyj-gh-201n/', },
+		{ backspace: true, },
+
+		//{ k: 'Ціна' 		, v: '0 грн' 	, },
 	],
 },
 {

@@ -240,8 +240,8 @@ function showSpoilers( arr ) {
 
 
 
-/*
 		let htmlDate = '';
+/*
 		if ( k_spoiler.date ) {
 
 			
@@ -382,6 +382,72 @@ nav.addEventListener( 'click', function( e ) {
 
 		if ( elem.dataset.id && elem.dataset.id == 'select' ) 
 			arrSelected = arrListSelect;
+
+
+		if ( elem.dataset.id && elem.dataset.id == 'shops' ) {
+
+
+
+/*
+
+{
+	id: '20250706_', date: '2026-07-06', title: 'Захист картера двигуна', descr: '...встановлення', 
+	keyval: [
+
+		{ mileage: 330950 },
+		{ station: 'merefa_auto_service_center' 	, },
+
+		{ k: 'Захист картеру двигуна' 				, v: '' 		, },
+		{ backspace: true },
+	
+		{ shop: 'kravcov_maxym_kostyantyn' },
+		{ k: 'Дата' 						, v: '2026-06-24' 		, },
+		{ k: 'Ціна' 						, v: '3800 грн' 		, },
+	],
+},
+
+
+
+*/
+
+
+
+			let arrShops = [];
+			arrListShop.forEach( k_shop => {
+
+				console.log( k_shop.id );
+
+				let objEachShop = {};
+				objEachShop.id = k_shop.id;
+				objEachShop.title = k_shop.title;
+
+
+				let htmlAddress = '';
+				if ( k_shop.address || k_shop.gps ) {
+
+					let htmlAdressTxt = k_shop.address ? k_shop.address : 'GPS';
+
+					if ( k_shop.gps )
+						htmlAdressTxt = `<a href="${ k_shop.gps }" title="На мапі" target="_blank">${ htmlAdressTxt } ${ htmlLinkSign }</a>`;
+
+				
+					htmlAddress = htmlAdressTxt;
+				}
+				
+				objEachShop.keyval 	= [ 
+					{ k: k_shop.title, v: htmlAddress , }, 
+				];
+
+				arrShops.push( objEachShop );
+			});
+
+			arrSelected = arrShops;
+		}
+
+
+
+
+
 
 		if ( elem.dataset.id && elem.dataset.id == 'tools' ) {
 			arrSelected = arrList.filter( k_obj => {
