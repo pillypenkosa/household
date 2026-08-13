@@ -375,12 +375,16 @@ const arrList = [
 	],
 },
 {
-	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Мішок спальний', cat: { warstore: 1, },
+	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Мішок спальний', descr: 'Naturehike', cat: { warstore: 1, },
 	keyval: [
-		{ k: 'Мішок спальний' 	, v: 'полегшений' 	, },
-		{ k: 'Магазин' 			, v: 'Військторг' 	, gps: 'https://maps.app.goo.gl/FffAsnj8rrf78RjU6', }, 
+		{ k: 'Мішок спальний' 		, v: 'Naturehike' 		, },
+		{ k: '' 					, v: 'полегшений' 		, },
+		{ k: 'Розміри' 				, v: '190 x 75 см' 		, },
+		{ k: 'Вага' 				, v: '680 г' 			, },
+		{ k: 'Температури' 			, v: '+18 / +8 / -3' 	, },
 		{ backspace: true },
 
+		{ k: 'Магазин' 			, v: 'Військторг' 	, gps: 'https://maps.app.goo.gl/FffAsnj8rrf78RjU6', }, 
 		{ k: 'Ціна' 			, v: '1800 грн' 	, },
 	],
 },

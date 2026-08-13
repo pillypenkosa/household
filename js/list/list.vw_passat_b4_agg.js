@@ -31,8 +31,47 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+
 {
-	id: '20250706_', date: '2026-07-06', title: 'Захист картера двигуна', descr: '...встановлення', 
+	id: '20260813_jp_group', date: '2026-08-13', title: 'Електросклопідйомник', descr: '...заміна', 
+	keyval: [
+
+		{ mileage: 331570 },
+		{ station: 'djs' 	, },
+
+		{ k: 'Електросклопідйомник' 	, v: 'без двигуна' 		, },
+		{ k: '' 						, v: 'передній лівий' 		, },
+
+		{ manufacturer: 'jp_group', },
+		{ backspace: true },
+	
+		{ k: 'e-Магазин' 		, v: 'avto.pro' 		, href: 'https://avto.pro/seller/zavgar/', },
+		{ k: 'Дата' 			, v: '2026-08-13' 		, },
+		{ k: 'Ціна' 			, v: '1130 грн' 		, },
+	],
+},
+{
+	id: '20260813_vag', date: '2026-08-13', title: 'Флажок-ричаг', descr: '...заміна', 
+	keyval: [
+
+		{ mileage: 331570 },
+		{ station: 'djs' 	, },
+
+		{ k: 'Флажок-ричаг' 	, v: 'в замок дверей' 	, },
+		{ k: '' 				, v: 'передніі ліві' 	, },
+
+		{ manufacturer: 'vag', },
+		{ k: 'Код VAG' 			, v: '357837083' 		, },
+
+		{ backspace: true },
+	
+		{ k: 'e-Магазин' 		, v: 'avto.pro' 			, href: 'https://avto.pro/seller/exist-ua-212035/', },
+		{ k: 'Дата' 			, v: '2026-08-13' 			, },
+		{ k: 'Ціна' 			, v: '232 грн за 2 шт' 		, },
+	],
+},
+{
+	id: '20260706_', date: '2026-07-06', title: 'Захист картера двигуна', descr: '...встановлення', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -47,7 +86,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250706_injector', date: '2026-07-06', title: 'Форсунки', descr: '...діагностика', 
+	id: '20260706_injector', date: '2026-07-06', title: 'Форсунки', descr: '...діагностика', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -58,7 +97,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250706_purflux', date: '2026-07-06', title: 'Фільтр паливний', descr: 'Purflux ...заміна', 
+	id: '20260706_purflux', date: '2026-07-06', title: 'Фільтр паливний', descr: 'Purflux ...заміна', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -80,7 +119,7 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 {
-	id: '20250706_', date: '2026-07-06', title: 'Котушка запалювання', descr: 'Bremi...заміна', 
+	id: '20260706_', date: '2026-07-06', title: 'Котушка запалювання', descr: 'Bremi...заміна', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -94,7 +133,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250706_', date: '2026-07-06', title: 'Кришка трамблера', descr: 'Bremi...заміна', 
+	id: '20260706_', date: '2026-07-06', title: 'Кришка трамблера', descr: 'Bremi...заміна', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -108,7 +147,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250706_', date: '2026-07-06', title: 'Бігунок трамблера', descr: 'Bremi...заміна', 
+	id: '20260706_', date: '2026-07-06', title: 'Бігунок трамблера', descr: 'Bremi...заміна', 
 	keyval: [
 
 		{ mileage: 330950 },
@@ -122,7 +161,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250626_locker', date: '2026-06-26', title: 'Захист арок колес', descr: '...покупка', 
+	id: '20260626_locker', date: '2026-06-26', title: 'Захист арок колес', descr: '...покупка', 
 	keyval: [
 		{ k: 'Захист арок колес' 		, v: 'Mega Locker' 	, },
 		{ k: '' 						, v: 'Харків' 		, },
@@ -134,7 +173,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250626_', date: '2026-06-26', title: 'Бризковики', descr: '...покупка', 
+	id: '20260626_', date: '2026-06-26', title: 'Бризковики', descr: '...покупка', 
 	keyval: [
 		{ k: 'Бризковики ' 		, v: 'T-Series' 	, },
 		{ k: 'Моделі' 			, v: 'T1, T2' 	, },
@@ -163,7 +202,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20250614_', date: '2026-06-14', title: 'Килимок в багажник', descr: 'EVA', 
+	id: '20260614_', date: '2026-06-14', title: 'Килимок в багажник', descr: 'EVA', 
 	keyval: [
 
 		{ mileage: 330800 },
