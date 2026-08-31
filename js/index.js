@@ -360,6 +360,13 @@ nav.addEventListener( 'click', function( e ) {
 			});
 		}
 
+		if ( elem.dataset.id && elem.dataset.id == 'studio' ) {
+			arrSelected = arrList.filter( k_obj => {
+				if ( k_obj.cat && k_obj.cat.studio ) 
+					return true;
+			});
+		}
+
 		if ( elem.dataset.id && elem.dataset.id == 'cars' ) 
 			arrSelected = arrListCars;
 
@@ -384,7 +391,19 @@ nav.addEventListener( 'click', function( e ) {
 			arrSelected = arrListSelect;
 
 
+
+
+
+
+
+
 		if ( elem.dataset.id && elem.dataset.id == 'shops' ) {
+
+
+
+
+
+
 
 
 

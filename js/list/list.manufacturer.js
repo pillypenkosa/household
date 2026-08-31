@@ -41,6 +41,8 @@ const arrListManufacturer = [
 
 
 
+
+{ id: 'aic' 			, title: 'Aic' 					, country: 'deu' 	, year: 1975 	, internet: { avtopro: 'https://avtopro.ua/makers/aic/' 						, }, },
 { id: 'alkar' 			, title: 'Alkar' 				, country: 'esp' 	, year: 1968 	, internet: { avtopro: 'https://avto.pro/makers/alkar' 							, }, },
 { id: 'beru' 			, title: 'Beru' 				, country: 'deu' 	, year: 1912 	, internet: { avtopro: 'https://avto.pro/makers/beru' 							, }, },
 { id: 'bilstein' 		, title: 'Bilstein' 			, country: 'deu' 	, year: 1873 	, internet: { avtopro: 'https://avto.pro/makers/bilstein' 						, }, },

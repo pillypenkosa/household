@@ -14,8 +14,80 @@ const arrList = [
 
 
 
+{
+	id: '20260831_saw', date: '2026-08-31', descr: 'Dnipro-M', title: 'Пила ланцюгова', cat: { tools: 1, },
+	keyval: [
+		{ k: 'Пила ланцюгова' 		, v: 'Dnipro-M' 			, },
+		{ k: '' 					, v: 'Ручна ( манікюрна )' 	, },
+		{ k: 'Модель' 				, v: 'DMS-200BC' 			, },
+		{ backspace: true, },
 
+		{ shop: 'merefa_dnipro_m' },
+		{ k: 'Товар' 				, v: 'dnipro-m.ua' 			, href: 'https://dnipro-m.ua/tovar/akumulyatorna-lancyugova-mini-pila-dms-200bc/', },
+		{ k: 'Ціна' 				, v: '2598 грн' 			, },
+	],
+},
+{
+	id: '20260831_battery', date: '2026-08-31', descr: 'Dnipro-M', title: 'Акумулятор', cat: { tools: 1, electronics: 1, },
+	keyval: [
+		{ k: 'Акумулятор' 			, v: 'Dnipro-M' 	, },
+		{ k: 'Модель' 				, v: 'BP-280N' 		, },
+		{ k: 'Напруга' 				, v: '20 В' 		, },
+		{ k: 'Ємність' 				, v: '8 А*г' 		, },
+		{ k: 'Технологія' 			, v: 'Li-Ion' 		, },
+		{ backspace: true, },
 
+		{ shop: 'merefa_dnipro_m' },
+		{ k: 'Товар' 				, v: 'dnipro-m.ua' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-batareya-bp-280n/', },
+		{ k: 'Ціна' 				, v: '3999 грн' 	, },
+	],
+},
+{
+	id: '20260831_charger', date: '2026-08-31', descr: 'Dnipro-M', title: 'Пристрій зарядний', cat: { tools: 1, electronics: 1, },
+	keyval: [
+		
+		{ k: 'Зарядний пристрій' 		, v: 'Dnipro-M' 	, },
+		{ k: 'Модель' 					, v: 'FC-230' 		, },
+		{ k: 's/n' 						, v: 'NLE032625-81100' 		, },
+
+		{ k: 'Напруга' 					, v: '21.5 В' 		, },
+		{ k: 'Струм' 					, v: '3 А' 		, },
+		{ backspace: true, },
+
+		{ shop: 'merefa_dnipro_m' },
+		{ k: 'Товар' 				, v: 'dnipro-m.ua' 	, href: 'https://dnipro-m.ua/tovar/zaryadnoe-ustrojstvo-k-shurupovertu-fc-230/', },
+		{ k: 'Ціна' 				, v: '699 грн' 	, },
+	],
+},
+{
+	id: '20260831_oil', date: '2026-08-31', descr: 'Dnipro-M', title: 'Масло', cat: { tools: 1, chemical: 1, },
+	keyval: [
+		
+		{ k: 'Масло' 				, v: 'Dnipro-M' 			, },
+		{ k: 'Призначення' 			, v: 'Для пили ланцюгової' 	, },
+		{ k: 'Об\'єм' 				, v: '200 мл' 				, },
+		{ backspace: true, },
+
+		{ shop: 'merefa_dnipro_m' },
+		{ k: 'Товар' 				, v: 'dnipro-m.ua' 	, href: 'https://dnipro-m.ua/tovar/oliva-lancyugova-dlya-gilkoriziv-200-ml/', },
+		{ k: 'Ціна' 				, v: '150 грн' 		, },
+	],
+},
+{
+	id: '20260815_', date: '2026-08-15', title: 'Мішок спальний', descr: 'Naturehike', cat: { warstore: 1, },
+	keyval: [
+		{ k: 'Мішок спальний' 		, v: 'Naturehike' 		, },
+		{ k: '' 					, v: 'LW 180 XL' 		, },
+		{ k: 'Розміри' 				, v: '205 x 85 см' 		, },
+		{ k: 'Вага' 				, v: '760 г' 			, },
+		{ k: 'Температури' 			, v: '+15 / +8 / -3' 	, },
+		{ backspace: true },
+
+		{ k: 'Товар' 				, v: 'prom.ua' 						, href: 'https://prom.ua/ua/p3130381275-spalnyj-meshok-naturehike.html', }, 
+		{ k: 'e-Магазин' 			, v: 'B2B-partner ( prom.ua )' 		, href: 'https://prom.ua/ua/c4137142-b2b-partner.html', }, 
+		{ k: 'Ціна' 				, v: '1539 грн' 					, },
+	],
+},
 {
 	id: '20260618_tire', date: '2026-06-18', title: 'Покришки', descr: 'Schwalbe', cat: { bicycle: 1, },
 	keyval: [
@@ -186,7 +258,7 @@ const arrList = [
 	],
 },
 {
-	id: '20251023_powerbank', date: '2025-10-23', title: 'Hoco DB03 Max', type: 'PowerBank', cat: { electronics: 1, },
+	id: '20251023_powerbank', date: '2025-10-23', title: 'PowerBank', descr: 'Hoco DB03 Max', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'PowerBank' 			, v: 'Hoco' 						, },
 		{ k: 'Модель' 				, v: 'DB03 Max' 					, },
@@ -378,7 +450,7 @@ const arrList = [
 	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Мішок спальний', descr: 'Naturehike', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 		, v: 'Naturehike' 		, },
-		{ k: '' 					, v: 'полегшений' 		, },
+		{ k: '' 					, v: 'LW 180' 			, },
 		{ k: 'Розміри' 				, v: '190 x 75 см' 		, },
 		{ k: 'Вага' 				, v: '680 г' 			, },
 		{ k: 'Температури' 			, v: '+18 / +8 / -3' 	, },
@@ -710,7 +782,7 @@ const arrList = [
 	],
 },
 {
-	id: '20220520_xiaomi', date: '2022-05-20', title: 'Xiaomi Poco', type: 'Телефон', cat: { electronics: 1, },
+	id: '20220520_xiaomi', date: '2022-05-20', title: 'Телефон', descr: 'Xiaomi Poco', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Телефон' 		, v: 'Xiaomi Poco' 				, },
 		{ k: 'Модель' 		, v: 'Poco M3 Pro 5G 4/64GB' 	, },
@@ -853,13 +925,14 @@ const arrList = [
 	],
 },
 {
-	id: '20071121_casio', date: '2007-11-21', title: 'Сінтезатор', descr: 'Casio', cat: { electronics: 1, },
+	id: '20071121_casio', date: '2007-11-21', title: 'Сінтезатор', descr: 'Casio', cat: { studio: 1, },
 	keyval: [
 		{ k: 'Сінтезатор' 	, v: 'Casio' 		, },
 		{ k: 'Модель' 		, v: 'CDP 100' 		, },
 		{ k: 'Магазин' 		, v: 'Атланта-Шоу' 	, },
 		{ backspace: true },
 
+		{ shop: 'kharkiv_atlanta_show', },
 		{ k: 'Ціна' 		, v: '3510 грн' 	, },
 	],
 },
@@ -871,21 +944,35 @@ const arrList = [
 	],
 },
 {
-	id: 'jts_js_1e', date: '2004-00-00', title: 'Мікрофон', descr: 'JTS', cat: { electronics: 1, },
+	id: 'jts_js_1e', date: '2004-00-00', title: 'Мікрофон', descr: 'JTS', cat: { studio: 1, },
 	keyval: [
 		{ k: 'Мікрофон' 	, v: 'JTS' 			, },
 		{ k: 'Модель' 		, v: 'JS-1E' 		, },
 		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 	, },
+		{ backspace: true },
+
+		{ shop: 'kharkiv_atlanta_show', },
 	],
 },
 {
-	id: 'akg_k240', date: '2004-00-00', title: 'AKG K240', type: 'Навушники', cat: { electronics: 1, },
+	id: 'm_box_2', date: '2004-00-00', title: 'Карта звукова', descr: 'M-Box 2', cat: { studio: 1, },
 	keyval: [
-		{ k: 'Навушники' 	, v: 'AKG' 		, },
-		{ k: 'Модель' 		, v: 'K240 Studio' 	, },
-		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 	, },
+		{ k: 'Карта звукова' 	, v: 'M-Box 2' 				, },
 		{ backspace: true },
 
+		{ shop: 'kharkiv_atlanta_show', },
+		{ k: 'Ціна' 		, v: '~3500-3800 грн' 	, },
+	],
+},
+{
+	id: 'akg_k240', date: '2004-00-00', title: 'Навушники', descr: 'AKG K240', cat: { studio: 1, },
+	keyval: [
+		{ k: 'Навушники' 	, v: 'AKG' 				, },
+		{ k: 'Модель' 		, v: 'K240 Studio' 		, },
+		{ k: 'Продавець' 	, v: 'Атланта-Шоу' 		, },
+		{ backspace: true },
+
+		{ shop: 'kharkiv_atlanta_show', },
 		{ k: 'Ціна' 		, v: '~ 820-840 грн' 	, },
 	],
 },
@@ -952,6 +1039,19 @@ const arrList = [
 		{ k: 'Ціна' 				, v: '65 грн' 		, },
 	],
 },
+{
+	id: '19940401_', date: '1994-04-01', title: 'Сінтезатор', descr: 'Yamaha PSS-51', cat: { studio: 1, },
+	keyval: [
+		{ k: 'Сінтезатор' 				, v: 'Yamaha' 	, },
+		{ k: 'Модель' 					, v: 'PSS-51' 	, },
+		{ k: 'Подарунок від батька' 	, v: '' 		, },
+		{ backspace: true },
+
+		{ shop: 'kharkiv_vympel',  },
+		{ k: 'Ціна' 				, v: '~300-330 $' 	, },
+	],
+},
+
 
 
 

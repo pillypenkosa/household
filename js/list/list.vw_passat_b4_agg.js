@@ -32,17 +32,43 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+
+
 {
-	id: '20260813_jp_group', date: '2026-08-13', title: 'Електросклопідйомник', descr: '...заміна', 
+	id: '20260830_cru', date: '2026-08-30', title: 'КПП CRU', descr: '...покупка', 
+	keyval: [
+
+		{ k: 'Продавець' 		, v: 'Ігор, м.Львів' 	, },
+		{ k: 'Телефон' 			, v: '+380688189385' 	, },
+		{ k: 'Дата' 			, v: '2026-08-30' 		, },
+		{ k: 'Ціна' 			, v: '7000 грн' 		, },
+	],
+},
+{
+	id: '20260814_', date: '2026-08-14', title: 'Антифриз', descr: '...заміна', 
+	keyval: [
+
+		{ mileage: 331600 },
+		{ station: 'kharkiv_ar_service' 	, },
+		{ backspace: true },
+
+		{ k: 'Дата' 			, v: '2026-08-14' 		, },
+		{ k: 'Ціна' 			, v: '700 грн' 		, },
+	],
+},
+{
+	id: '20260813_jp_group', date: '2026-08-13', title: 'Електросклопідйомник', descr: 'JP Group ...заміна', 
 	keyval: [
 
 		{ mileage: 331570 },
 		{ station: 'djs' 	, },
 
 		{ k: 'Електросклопідйомник' 	, v: 'без двигуна' 		, },
-		{ k: '' 						, v: 'передній лівий' 		, },
+		{ k: '' 						, v: 'передній лівий' 	, },
 
 		{ manufacturer: 'jp_group', },
+		{ k: 'Код' 						, v: '1188101770' 		, },
+
 		{ backspace: true },
 	
 		{ k: 'e-Магазин' 		, v: 'avto.pro' 		, href: 'https://avto.pro/seller/zavgar/', },
@@ -70,6 +96,45 @@ const arrList_VW_Passat_B4_AGG = [
 		{ k: 'Ціна' 			, v: '232 грн за 2 шт' 		, },
 	],
 },
+{
+	id: '20260803_aic', date: '2026-08-03', title: 'Електросклопідйомник', descr: 'AIC ...покупка', 
+	keyval: [
+
+		{ k: 'Електросклопідйомник' 	, v: 'без двигуна' 			, },
+		{ k: '' 						, v: 'передній лівий' 		, },
+		{ k: 'Статус' 					, v: 'На смітнику' 			, },
+
+		{ manufacturer: 'aic', },
+		{ k: 'Код' 		, v: '52222' 		, },
+		{ backspace: true },
+	
+		{ k: 'Товар' 			, v: 'prom.ua' 					, href: 'https://prom.ua/ua/p3090596139-sklopidjomnik-perednij-passat.html', },
+		{ k: 'e-Магазин' 		, v: 'О П Т О М ( prom.ua )' 	, href: 'https://prom.ua/ua/c3894654--o-p-t-o-m-.html', },
+		{ k: 'Самовивіз' 		, v: 'Харків' 					, gps: 'https://maps.app.goo.gl/AyTZe8gvvP7Drvub9', },
+
+		{ k: 'Дата' 			, v: '2026-08-03' 		, },
+		{ k: 'Ціна' 			, v: '1370 грн' 		, },
+	],
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: '20260706_', date: '2026-07-06', title: 'Захист картера двигуна', descr: '...встановлення', 
 	keyval: [

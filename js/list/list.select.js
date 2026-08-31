@@ -13,6 +13,48 @@ const arrListSelect = [
 
 
 
+
+
+
+{
+	id: 'shop_chainsaw', title: 'Пили ланцюгові', type: 'вибір', cat: { shop: 1, },
+	keyval: [
+
+
+
+
+
+		{ k: 'Акум BP-220' 				, v: 'dnipro-m.ua ( 800 грн )' 		, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-k-shurupovertu-bp-220/', },
+		{ k: 'Акум BP-240' 				, v: 'dnipro-m.ua ( 1470 грн )' 	, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-k-shurupovertu-bp-240/', },
+		{ k: 'Акум BP-240N' 			, v: 'dnipro-m.ua ( 1900 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-batareya-bp-240n/', },
+		{ k: 'Акум BP-260' 				, v: 'dnipro-m.ua ( 2550 грн )' 	, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-bp-260/', },
+		{ k: 'Акум BP-280N' 			, v: 'dnipro-m.ua ( 4000 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-batareya-bp-280n/', },
+		{ k: '---' 						, v: '', },
+
+		{ k: 'ЗП FC-230' 				, v: 'dnipro-m.ua ( 700 грн )' 	, href: 'https://dnipro-m.ua/tovar/zaryadnoe-ustrojstvo-k-shurupovertu-fc-230/', },
+		{ k: '---' 						, v: '', },
+
+		{ k: 'Пила DMS-200BC' 			, v: 'dnipro-m.ua ( 2397 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-lancyugova-mini-pila-dms-200bc/', },
+		{ k: '---' 						, v: '', },
+
+		{ k: 'BP-240 + ЗП + Пила' 		, v: 'dnipro-m.ua ( 4566 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-240-zaryadnij-fc-230/', },
+		{ k: 'BP-260 + ЗП + Пила' 		, v: 'dnipro-m.ua ( 5646 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-260-zaryadnij-fc-230/', },
+		{ k: 'BP-280N + ЗП + Пила' 		, v: 'dnipro-m.ua ( 7095 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-280n-zaryadnij-fc-230/', },
+
+
+
+
+
+
+	],
+},
+
+
+
+
+
+
+
 {
 	id: 'shop_charging_station', title: 'Зарядні станції', type: 'вибір', cat: { shop: 1, },
 	keyval: [

@@ -13,16 +13,17 @@ const arrListNavBtns = [
 		{ id: 'vw_passat_agg' 	, title: 'AGG' 				, },
 		{ id: 'bicycle' 		, title: 'Велосипед' 		, },
 		{ id: 'tools' 			, title: 'Інструмент' 		, },
+		{ id: 'chemical' 		, title: 'Хімія' 			, },
 	],
 	[
 		{ id: 'pc' 				, title: 'PC' 				, },
 		{ id: 'electronics' 	, title: 'Електроніка' 		, },
+		{ id: 'studio' 			, title: 'Студія' 			, },
 		{ id: 'hh_techno' 		, title: 'Техніка' 			, }, //household appliances
 	],
 	[
 		{ id: 'home' 			, title: 'Дім' 				, },
 		{ id: 'clothing' 		, title: 'Одяг' 			, },
-		{ id: 'chemical' 		, title: 'Хімія' 			, },
 		{ id: 'warstore' 		, title: 'Військторг' 		, },
 	],
 	[
