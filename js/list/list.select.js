@@ -16,42 +16,6 @@ const arrListSelect = [
 
 
 
-{
-	id: 'shop_chainsaw', title: 'Пили ланцюгові', type: 'вибір', cat: { shop: 1, },
-	keyval: [
-
-
-
-
-
-		{ k: 'Акум BP-220' 				, v: 'dnipro-m.ua ( 800 грн )' 		, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-k-shurupovertu-bp-220/', },
-		{ k: 'Акум BP-240' 				, v: 'dnipro-m.ua ( 1470 грн )' 	, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-k-shurupovertu-bp-240/', },
-		{ k: 'Акум BP-240N' 			, v: 'dnipro-m.ua ( 1900 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-batareya-bp-240n/', },
-		{ k: 'Акум BP-260' 				, v: 'dnipro-m.ua ( 2550 грн )' 	, href: 'https://dnipro-m.ua/tovar/akkumulyatornaya-batareya-bp-260/', },
-		{ k: 'Акум BP-280N' 			, v: 'dnipro-m.ua ( 4000 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-batareya-bp-280n/', },
-		{ k: '---' 						, v: '', },
-
-		{ k: 'ЗП FC-230' 				, v: 'dnipro-m.ua ( 700 грн )' 	, href: 'https://dnipro-m.ua/tovar/zaryadnoe-ustrojstvo-k-shurupovertu-fc-230/', },
-		{ k: '---' 						, v: '', },
-
-		{ k: 'Пила DMS-200BC' 			, v: 'dnipro-m.ua ( 2397 грн )' 	, href: 'https://dnipro-m.ua/tovar/akumulyatorna-lancyugova-mini-pila-dms-200bc/', },
-		{ k: '---' 						, v: '', },
-
-		{ k: 'BP-240 + ЗП + Пила' 		, v: 'dnipro-m.ua ( 4566 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-240-zaryadnij-fc-230/', },
-		{ k: 'BP-260 + ЗП + Пила' 		, v: 'dnipro-m.ua ( 5646 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-260-zaryadnij-fc-230/', },
-		{ k: 'BP-280N + ЗП + Пила' 		, v: 'dnipro-m.ua ( 7095 грн )' 	, href: 'https://dnipro-m.ua/tovar/komplekt-mini-lanczyugova-pila-dms-200bc-batareya-bp-280n-zaryadnij-fc-230/', },
-
-
-
-
-
-
-	],
-},
-
-
-
-
 
 
 
@@ -61,48 +25,9 @@ const arrListSelect = [
 
 
 
-
-
-		//{ k: 'Oukitel P2001E Pro' 			, v: 'electronicapro.com.ua ( 36490 грн )' 	, href: 'https://electronicapro.com.ua/zariadna-stantsiia-oukitel-p2001e-pro-3200-vt-2048-vthod-lifepo4', },
-
-
-
-
-
 		{ k: 'Bluetti B700 ( батарея )' 			, v: 'elmir.ua ( 127000 грн )' 	, href: 'https://elmir.ua/ua/aksessuary_k_zaryadnym_stantsiyam/additional-battery-bluetti-b700-novat-7372-8wh.html', },
 
 
-
-
-
-
-
-
-
-
-		{ k: 'EcoFlow DELTA 3' 					, v: 'prom.ua ( 36850 грн )' 	, href: 'https://prom.ua/ua/m5370450233234829607-portativnaya-elektrostantsiya-ecoflow.html?p=2901916733', },
-		{ k: 'Bluetti Premium 100 V2' 			, v: 'prom.ua ( 44687 грн )' 	, href: 'https://prom.ua/ua/m-552248763068070301-zaryadna-stantsiya-bluetti.html?p=2865577173', },
-		//{ k: 'EcoFlow DELTA 3' 					, v: 'prom.ua ( 47999 грн )' 	, href: 'https://prom.ua/ua/m7620941634501787398-portativnaya-zaryadnaya-stantsiya.html?p=2859893934', },
-		
-		//{ k: 'Bluetti AC 180' 					, v: 'prom.ua ( 51869 грн )' 	, href: 'https://prom.ua/ua/m3980490852142641914-zaryadnaya-stantsiya-bluetti.html?p=2859174873', },
-	
-		{ k: 'Bluetti AC 180' 					, v: 'prom.ua ( 47749 грн )' 	, href: 'https://prom.ua/ua/m5765087407037767217-zaryadna-stantsiya-bluetti.html?p=2814401509', },
-		{ k: 'EcoFlow DELTA Max 1600' 			, v: 'prom.ua ( 52200 грн )' 	, href: 'https://prom.ua/ua/m-7157656642042441245-portativnaya-zaryadnaya-stantsiya.html?p=2295134147', },
-		{ k: 'Bluetti AC 200 P PowerOak' 		, v: 'prom.ua ( 59990 грн )' 	, href: 'https://prom.ua/ua/p2828196174-zaryadnaya-stantsiya-bluetti.html', },
-		{ k: 'Bluetti Premium 200 V2' 			, v: 'elmir.ua ( 67999 грн )' 	, href: 'https://elmir.ua/ua/zaryadnye_stantsii/charging-station-bluetti-premium-200-v2.html', },
-		{ k: 'Bluetti Elite 200 V2' 			, v: 'prom.ua ( 68490 грн )' 	, href: 'https://prom.ua/ua/m3631957916452936899-zaryadnaya-stantsiya-bluetti.html?p=2889940758', },
-		{ k: 'Bluetti AC 200 P' 				, v: 'prom.ua ( 75479 грн )' 	, href: 'https://prom.ua/ua/m-4250389505616742284-zaryadnaya-stantsiya-bluetti.html?p=2860180852', },
-	
-		{ k: 'Bluetti Premium 200 V2' 			, v: 'prom.ua ( 75936 грн )' 	, href: 'https://prom.ua/ua/m1783659987726584004-zaryadnaya-stantsiya-bluetti.html?p=2748074272', },
-	
-		{ k: 'Bluetti AC 200 MAX' 				, v: 'prom.ua ( 77099 грн )' 	, href: 'https://prom.ua/ua/p2828191584-zaryadnaya-stantsiya-bluetti.html', },
-		{ k: 'Bluetti AC 200 L' 				, v: 'prom.ua ( 79553 грн )' 	, href: 'https://prom.ua/ua/m-1532316739723515504-zaryadna-stantsiya-bluetti.html?p=2865577160', },
-		{ k: 'Bluetti Premium 100 V2' 			, v: 'prom.ua ( 83998 грн )' 	, href: 'https://prom.ua/ua/m-738815144368207927-original-zaryadnaya-stantsiya.html?p=2801116843', },
-		{ k: 'Bluetti AC 200 PL' 				, v: 'prom.ua ( 85000 грн )' 	, href: 'https://prom.ua/ua/m8363107286458363255-zaryadnaya-stantsiya-bluetti.html?p=2339256601', },
-		{ k: 'Bluetti Elite 200 V2' 			, v: 'prom.ua ( 87000 грн )' 	, href: 'https://prom.ua/ua/m7262056723490308457-zaryadnaya-stantsiya-bluetti.html?p=2821332831', },
-		{ k: 'Bluetti AC 200 MAX Black' 		, v: 'prom.ua ( 90699 грн )' 	, href: 'https://prom.ua/ua/m-9076596144515175805-zaryadnaya-stantsiya-bluetti.html?p=2847334203', },
-		{ k: 'Bluetti AC 200 MAX Black' 		, v: 'prom.ua ( 90699 грн )' 	, href: 'https://prom.ua/ua/p2845470900-zaryadnaya-stantsiya-bluetti.html', },
-		
 		{ backspace: true },
 	],
 },
