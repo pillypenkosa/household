@@ -35,6 +35,33 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 {
+	id: '20260928_', date: '2026-09-28', title: 'Покришки GoodYear', descr: 'Ultra Grip 8 ...заміна ( 332400 км )', 
+	keyval: [
+
+		{ mileage: 332400 },
+		{ station: 'merefa_shinomontazh_2', },
+		{ backspace: true },
+
+		{ k: 'Шини / покришки' 		, v: 'GoodYear' 			, },
+		{ k: 'Модель' 				, v: 'Ultra Grip 8' 		, },
+		{ k: 'Маркування' 			, v: '185 / 65 / R14' 		, },
+		{ k: '86 T' 				, v: '530 кг, 190 км/г' 	, },
+		{ backspace: true },
+
+		{ k: 'e-Магазин' 			, v: 'garazh.ua' 					, href: 'https://www.garazh.ua/ua/shina-goodyear-ultra-grip-8-185-65-r14-86t', },
+		{ k: 'Дата' 				, v: '2026-09-28' 					, },
+		{ k: 'Ціна' 				, v: '14092 грн = 3523 грн * 4 шт' 	, },
+		{ backspace: true },
+	],
+},
+{
+	id: '20260916_', date: '2026-09-16', title: 'Потолок', descr: '...покраска', 
+	keyval: [
+
+		{ k: 'Потолок' 				, v: 'обшивка' 				, },
+	],
+},
+{
 	id: '20260830_cru', date: '2026-08-30', title: 'КПП CRU', descr: '...покупка', 
 	keyval: [
 
@@ -1143,18 +1170,18 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
-		{ k: '--- Шини' 			, v: '' 		, },
-		{ k: 'Tunga Nordway 2' 		, v: '' 		, },
-		{ k: '185 / 65 / R14' 		, v: '' 								, },
+		{ k: '--- Шини' 			, v: '' 								, },
+		{ k: 'GoodYear' 			, v: 'Ultra Grip 8' 					, },
+		{ k: '185 / 65 / R14' 		, v: 'зима' 							, },
+		{ k: '86 T' 				, v: '530 кг, 190 км/г' 				, },
+		{ k: 'M + S' 				, v: 'Mud and Snow, бруд і сніг' 		, },
+		{ k: '---' 					, v: '' 								, },
+
+		{ k: 'Tunga' 				, v: 'Nordway 2' 						, },
+		{ k: '185 / 65 / R14' 		, v: 'зима' 							, },
 		{ k: '86 Q' 				, v: '530 кг, 160 км/г' 				, },
 		{ k: 'M + S' 				, v: 'Mud and Snow, бруд і сніг' 		, },
-
-
-
-
-
 		{ backspace: true },
-
 
 
 

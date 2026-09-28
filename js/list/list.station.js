@@ -17,9 +17,9 @@ const arrListStation = [
 { id: 'merefa_girka' 					, title: 'Біля кафе Гірка' 		, address: 'м. Мерефа' 									, gps: 'https://maps.app.goo.gl/UAeP96N3HKfYxxjNA' , },
 { id: 'merefa_razval' 					, title: 'Развал/схождение' 	, address: 'м. Мерефа, вул.Дніпропетровська, 198' 		, gps: 'https://maps.app.goo.gl/LbNhq2dNzN3EmbAd8' , },
 { id: 'merefa_shinomontazh' 			, title: 'Шиномонтаж' 			, address: 'м. Мерефа, вул.Дніпропетровська, 196' 		, gps: 'https://maps.app.goo.gl/ou5BpiEXvoUSepGw5' , },
+{ id: 'merefa_shinomontazh_2' 			, title: 'Шиномонтаж' 			, address: 'м. Мерефа, вул.Дніпропетровська, 143' 		, gps: 'https://maps.app.goo.gl/4prna1dPjPrYSoZy7' , },
 { id: 'kharkiv_ar_service' 				, title: 'А/Р Сервіс' 			, address: 'м. Харків, вул.Несторівська, 14' 			, gps: 'https://maps.app.goo.gl/GD7HeGXmiy4WmKUs7' , },
 { id: 'kharkiv_lpg' 					, title: 'LPG' 					, address: 'м. Харків, вул.Академіка Білецького, 55' 	, gps: 'https://maps.app.goo.gl/TdQwVPcugPpxa1tv6' , },
-
 
 { id: 'kharkiv_master_1' 				, title: 'Олександр' 			, address: 'м. Харків, вул. Молочна, 9, під\'їзд 3' 	, gps: 'https://maps.app.goo.gl/bq134zEcSgLuYDwR7' , },
 
