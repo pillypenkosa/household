@@ -33,7 +33,42 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+{
+	id: '20261013_speed', date: '2026-10-13', title: 'Трос спідометра', descr: '', 
+	keyval: [
+		{ mileage: 332550 },
+		{ station: 'merefa_auto_service_center', },
+		{ backspace: true },
+	],
+},
+{
+	id: '20261013_', date: '2026-10-13', title: 'Зчеплення', descr: '', 
+	keyval: [
+		{ mileage: 332550 },
+		{ station: 'merefa_auto_service_center', },
+		{ backspace: true },
 
+		{ k: '' 			, v: 'Корзина' 				, },
+		{ k: '' 			, v: 'Диск' 				, },
+		{ k: '' 			, v: 'Вижимний підшипник' 	, },
+	],
+},
+{
+	id: '20261013_oil', date: '2026-10-13', title: 'Масло КПП', descr: '', 
+	keyval: [
+		{ mileage: 332550 },
+		{ station: 'merefa_auto_service_center', },
+		{ backspace: true },
+	],
+},
+{
+	id: '20261013_cru', date: '2026-10-13', title: 'КПП', descr: 'CRU ( 332550 км )', 
+	keyval: [
+		{ mileage: 332550 },
+		{ station: 'merefa_auto_service_center', },
+		{ backspace: true },
+	],
+},
 {
 	id: '20260928_', date: '2026-09-28', title: 'Покришки GoodYear', descr: 'Ultra Grip 8 ...заміна ( 332400 км )', 
 	keyval: [
