@@ -14,6 +14,69 @@ const arrList = [
 
 
 
+
+
+
+{
+	id: '20261119_bluetti', date: '2026-11-19', title: 'Батарея Bluetti ', descr: 'B 500 K', cat: { electronics: 1, },
+	keyval: [
+
+		{ k: 'Назва' 			, v: 'Bluetti' 		, },
+		{ k: 'Модель' 			, v: 'B 500 K' 		, },
+		{ backspace: true },
+
+		{ k: 'Ємність' 				, v: '5120 Вт*г' 		, },
+		{ k: 'Акумулятор' 			, v: 'LiFePO4' 			, },
+		{ backspace: true },
+
+		{ k: 'Розміри' 				, v: '520 x 308,5 x 327 мм' 	, },
+		{ k: 'Вага' 				, v: '45 кг' 			, },
+		{ backspace: true },
+
+		{ k: 'e-Магазин' 	, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/aksessuary_k_zaryadnym_stantsiyam/additional-battery-bluetti-b500k.html', },
+		{ k: 'Ціна' 		, v: '99999 грн' 		, },
+	],
+},
+{
+	id: '20261108_bluetti', date: '2026-11-08', title: 'Зарядна станція', descr: 'Bluetti Apex 300', cat: { electronics: 1, },
+	keyval: [
+
+		{ k: 'Назва' 			, v: 'Bluetti' 		, },
+		{ k: 'Модель' 			, v: 'Apex 300' 	, },
+		{ backspace: true },
+
+		{ k: 'Потужність' 				, v: '3840 Вт' 			, },
+		{ k: 'Потужність пікова' 		, v: '7680 Вт' 			, },
+		{ k: 'Акумулятор' 				, v: 'LiFePO4' 			, },
+		{ k: 'Ємність' 					, v: '2764 Вт*г' 		, },
+		{ backspace: true },
+
+		{ k: 'Розміри' 					, v: '525 x 327 x 230 мм' 	, },
+		{ k: 'Вага' 					, v: '38 кг' 			, },
+		{ backspace: true },
+
+		{ k: 'e-Магазин' 	, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/zaryadnye_stantsii/charging-station-bluetti-apex300.html', },
+		{ k: 'Ціна' 		, v: '79999 грн' 		, },
+	],
+},
+{
+	id: '20261108_flash', date: '2026-11-08', title: 'Флеш-карта', descr: '256 Гб', cat: { electronics: 1, },
+	keyval: [
+
+		{ k: 'Назва' 				, v: 'Kingston' 						, },
+		{ k: 'Модель' 				, v: 'Canvas Select Plus U1 V10 A1' 	, },
+
+		{ k: 'Об\'єм' 				, v: '256 Гб' 		, },
+		{ k: 'Швидкість читання' 	, v: '~150 МБ/с' 	, },
+		{ backspace: true },
+
+		{ k: 'Призначення' 		, v: 'для планшета' 	, },
+		{ backspace: true },
+
+		{ k: 'e-Магазин' 	, v: 'elmir.ua' 		, href: 'https://elmir.ua/ua/flash_memory_cards/memory-card-micro-sdxc-256gb-kingston-canvas-select-plus-u1-v10-a1-sdcs3-256gbsp.html', },
+		{ k: 'Ціна' 		, v: '2109 грн' 		, },
+	],
+},
 {
 	id: '20260831_saw', date: '2026-08-31', descr: 'Dnipro-M', title: 'Пила ланцюгова', cat: { tools: 1, },
 	keyval: [
@@ -194,7 +257,7 @@ const arrList = [
 	],
 },
 {
-	id: '20260210_bluetti', date: '2026-02-10', title: 'Зарядна станція', descr: 'Bluetti', cat: { electronics: 1, },
+	id: '20260210_bluetti', date: '2026-02-10', title: 'Зарядна станція', descr: 'Bluetti Premium 100 V2', cat: { electronics: 1, },
 	keyval: [
 
 		{ k: 'Назва' 			, v: 'Bluetti' 				, },
