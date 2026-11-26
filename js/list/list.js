@@ -18,7 +18,7 @@ const arrList = [
 
 
 {
-	id: '20261119_bluetti', date: '2026-11-19', title: 'Батарея Bluetti ', descr: 'B 500 K', cat: { electronics: 1, },
+	id: '20261119_bluetti', date: '2026-11-19', title: 'Батарея', descr: 'Bluetti B 500 K', cat: { electronics: 1, },
 	keyval: [
 
 		{ k: 'Назва' 			, v: 'Bluetti' 		, },
@@ -60,7 +60,7 @@ const arrList = [
 	],
 },
 {
-	id: '20261108_flash', date: '2026-11-08', title: 'Флеш-карта', descr: '256 Гб', cat: { electronics: 1, },
+	id: '20261108_flash', date: '2026-11-08', title: 'Флеш-карта', descr: '256 Гб', cat: { phone: 1, },
 	keyval: [
 
 		{ k: 'Назва' 				, v: 'Kingston' 						, },
@@ -106,7 +106,7 @@ const arrList = [
 	],
 },
 {
-	id: '20260831_charger', date: '2026-08-31', descr: 'Dnipro-M', title: 'Пристрій зарядний', cat: { tools: 1, electronics: 1, },
+	id: '20260831_charger', date: '2026-08-31', descr: 'Dnipro-M', title: 'Зарядний пристрій', cat: { tools: 1, electronics: 1, },
 	keyval: [
 		
 		{ k: 'Зарядний пристрій' 		, v: 'Dnipro-M' 	, },
@@ -137,7 +137,7 @@ const arrList = [
 	],
 },
 {
-	id: '20260815_', date: '2026-08-15', title: 'Мішок спальний', descr: 'Naturehike', cat: { warstore: 1, },
+	id: '20260815_', date: '2026-08-15', title: 'Спальний мішок', descr: 'Naturehike', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 		, v: 'Naturehike' 		, },
 		{ k: '' 					, v: 'LW 180 XL' 		, },
@@ -167,7 +167,7 @@ const arrList = [
 	],
 },
 {
-	id: '20260618_tube', date: '2026-06-18', title: 'Камери', descr: 'Schwalbe', cat: { bicycle: 1, },
+	id: '20260618_tube', date: '2026-06-18', title: 'Камери вело', descr: 'Schwalbe', cat: { bicycle: 1, },
 	keyval: [
 
 		{ k: 'Камера' 				, v: 'Schwalbe' 			, },
@@ -244,7 +244,7 @@ const arrList = [
 	],
 },
 {
-	id: '20260423_arvisa', date: '2026-04-23', title: 'Мішок спальний', descr: 'Arvisa', cat: { home: 1, },
+	id: '20260423_arvisa', date: '2026-04-23', title: 'Спальний мішок', descr: 'Arvisa', cat: { home: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 		, v: 'Arvisa' 			, },
 		{ k: 'Розміри' 				, v: '250 х 130 см' 	, },
@@ -301,7 +301,7 @@ const arrList = [
 	],
 },
 {
-	id: '20251031_hoco', date: '2025-10-31', title: 'Пристрій зарядний', descr: 'Hoco 65 W', cat: { electronics: 1, },
+	id: '20251031_hoco', date: '2025-10-31', title: 'Зарядний пристрій', descr: 'Hoco 65 W', cat: { electronics: 1, },
 	keyval: [
 		
 		{ k: 'Пристрій зарядний' 	, v: 'Hoco 65 W' 	, },
@@ -321,7 +321,7 @@ const arrList = [
 	],
 },
 {
-	id: '20251023_powerbank', date: '2025-10-23', title: 'PowerBank', descr: 'Hoco DB03 Max', cat: { electronics: 1, },
+	id: '20251023_powerbank', date: '2025-10-23', title: 'PowerBank', descr: 'Hoco DB03 Max', cat: { phone: 1, },
 	keyval: [
 		{ k: 'PowerBank' 			, v: 'Hoco' 						, },
 		{ k: 'Модель' 				, v: 'DB03 Max' 					, },
@@ -345,7 +345,7 @@ const arrList = [
 	],
 },
 {
-	id: '20251022_hoco', date: '2025-10-23', title: 'Навушники', descr: 'Hoco M83', cat: { electronics: 1, },
+	id: '20251022_hoco', date: '2025-10-23', title: 'Навушники', descr: 'Hoco M83', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Навушники' 		, v: 'Hoco' 				, },
 		{ k: 'Модель' 			, v: 'M83' 					, },
@@ -362,7 +362,7 @@ const arrList = [
 	],
 },
 {
-	id: '20251022_glass', date: '2025-10-22', title: 'Скло захисне', descr: 'Tempered Glass 0.3mm', cat: { electronics: 1, },
+	id: '20251022_glass', date: '2025-10-22', title: 'Захисне скло', descr: 'Tempered Glass 0.3mm', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Скло захисне' 	, v: '' 							, },
 		{ k: 'Модель' 			, v: 'Tempered Glass 0.3 mm' 		, },
@@ -405,7 +405,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250812_f19_tws', date: '2025-08-12', title: 'Гарнітура Bluetooth', descr: 'F19 TWS', cat: { electronics: 1, },
+	id: '20250812_f19_tws', date: '2025-08-12', title: 'Bluetooth-гарнітура ', descr: 'навушник F19 TWS', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Bluetooth гарнітура' 	, v: 'F19 TWS' 			, },
 		{ k: 'Модель' 				, v: '87344006' 		, },
@@ -429,7 +429,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250730_wuw', date: '2025-07-30', title: 'Пристрій зарядний', descr: 'WUW Fast Charger 48w', cat: { electronics: 1, },
+	id: '20250730_wuw', date: '2025-07-30', title: 'Зарядний пристрій ', descr: 'WUW Fast Charger 48w', cat: { phone: 1, },
 	keyval: [
 		
 		{ k: 'Пристрій зарядний' 	, v: 'WUW Fast Charger 48w' 	, },
@@ -448,7 +448,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250704_samsung', date: '2025-07-04', title: 'Телефон', descr: 'Samsung A26', cat: { electronics: 1, }, 
+	id: '20250704_samsung', date: '2025-07-04', title: 'Телефон', descr: 'Samsung A26', cat: { phone: 1, }, 
 	keyval: [
 		
 		{ k: 'Телефон' 			, v: 'Samsung Galaxy A26 5G' 	, },
@@ -465,7 +465,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250620_samsung', date: '2025-06-20', title: 'Планшет', descr: 'Samsung', cat: { electronics: 1, }, 
+	id: '20250620_samsung', date: '2025-06-20', title: 'Планшет', descr: 'Samsung', cat: { phone: 1, }, 
 	keyval: [
 		
 		{ k: 'планшет' 			, v: 'Samsung Galaxy Tab A9+' 	, },
@@ -487,7 +487,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250620_jbl', date: '2025-06-20', title: 'Навушники', descr: 'JBL Tune 720 BT', cat: { electronics: 1, },
+	id: '20250620_jbl', date: '2025-06-20', title: 'Навушники', descr: 'JBL Tune 720 BT', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Навушники' 		, v: 'JBL Tune 720 BT' 	, },
 		{ k: 'Модель' 			, v: 'JBLT720BTBLK' 		, },
@@ -510,7 +510,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Мішок спальний', descr: 'Naturehike', cat: { warstore: 1, },
+	id: '20250500_sleep_bag', date: '2025-05-00', title: 'Спальний мішок', descr: 'Naturehike', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 		, v: 'Naturehike' 		, },
 		{ k: '' 					, v: 'LW 180' 			, },
@@ -578,7 +578,7 @@ const arrList = [
 	],
 },
 {
-	id: '20250505_samsung', date: '2024-05-05', title: 'Телефон', descr: 'Samsung A042', cat: { electronics: 1, }, 
+	id: '20250505_samsung', date: '2024-05-05', title: 'Телефон', descr: 'Samsung A042', cat: { phone: 1, }, 
 	keyval: [
 		{ k: 'Телефон' 		, v: 'Samsung Galaxy A042' 	, },
 		{ k: 'Модель' 		, v: 'SM-A042FLBHSEK' 		, },
@@ -674,9 +674,9 @@ const arrList = [
 	],
 },
 {
-	id: '20230506_jbl', date: '2023-05-06', title: 'Колонка Bluetooth', descr: 'JBL', cat: { electronics: 1, },
+	id: '20230506_jbl', date: '2023-05-06', title: 'Bluetooth-колонка', descr: 'JBL', cat: { phone: 1, },
 	keyval: [
-		{ k: 'Bluetooth колонка' 	, v: 'JBL Xtreme Big' 	, },
+		{ k: 'Bluetooth-колонка' 	, v: 'JBL Xtreme Big' 	, },
 		{ k: 'Продавець' 			, v: 'prom.ua' 			, href: 'https://kharkov.prom.ua/ua/p795971389-kolonka-xtreme-big.html?adjust_campaign=share&adjust_adgroup=android&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_android', },
 		{ backspace: true },
 
@@ -761,7 +761,7 @@ const arrList = [
 	],
 },
 {
-	id: '20221118_bag', date: '2022-11-18', title: 'Мішок спальний', cat: { warstore: 1, },
+	id: '20221118_bag', date: '2022-11-18', title: 'Спальний мішок', cat: { warstore: 1, },
 	keyval: [
 		{ k: 'Мішок спальний' 	, v: '' 				, },
 		{ k: 'Магазин' 			, v: 'вул.Ярославська' 	, gps: 'https://maps.app.goo.gl/HiesR2HpwXe2RxHS9' , },
@@ -845,7 +845,7 @@ const arrList = [
 	],
 },
 {
-	id: '20220520_xiaomi', date: '2022-05-20', title: 'Телефон', descr: 'Xiaomi Poco', cat: { electronics: 1, },
+	id: '20220520_xiaomi', date: '2022-05-20', title: 'Телефон', descr: 'Xiaomi Poco', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Телефон' 		, v: 'Xiaomi Poco' 				, },
 		{ k: 'Модель' 		, v: 'Poco M3 Pro 5G 4/64GB' 	, },
@@ -887,7 +887,7 @@ const arrList = [
 	],
 },
 {
-	id: '20220515_powerbank', date: '2022-05-15', title: 'PowerBank', descr: '10000 no name', cat: { electronics: 1, },
+	id: '20220515_powerbank', date: '2022-05-15', title: 'PowerBank', descr: '10000 no name', cat: { phone: 1, },
 	keyval: [
 		{ k: 'Power Bank' 	, v: 'No Name' 			, },
 		{ k: 'Ємність' 		, v: '10000 mAh' 		, },
@@ -920,7 +920,7 @@ const arrList = [
 	],
 },
 {
-	id: '20200426_xiaomi', date: '2021-04-26', title: 'Телефон', descr: 'Xiaomi Redmi 8A', cat: { electronics: 1, }, 
+	id: '20200426_xiaomi', date: '2021-04-26', title: 'Телефон', descr: 'Xiaomi Redmi 8A', cat: { phone: 1, }, 
 	keyval: [
 		{ k: 'Телефон' 			, v: 'Xiaomi Redmi 8A' 		, },
 		{ k: 'Модель' 			, v: 'M1908C3KG' 			, },
@@ -1092,7 +1092,7 @@ const arrList = [
 	],
 },
 {
-	id: '20040323_gp', date: '2004-03-23', title: 'Пристрій зарядний', descr: 'GP', cat: { electronics: 1, },
+	id: '20040323_gp', date: '2004-03-23', title: 'Зарядний пристрій', descr: 'GP', cat: { electronics: 1, },
 	keyval: [
 		{ k: 'Пристрій зарядний' 	, v: 'GP' 			, },
 		{ k: 'Типорозмір батарей' 	, v: 'ААА' 			, },

@@ -33,8 +33,34 @@ const arrList_VW_Passat_B4_AGG = [
 
 
 
+
+
 {
-	id: '20261013_speed', date: '2026-10-13', title: 'Трос спідометра', descr: '', 
+	id: '20261126_2', date: '2026-11-26', title: 'Включення 5 передачі', descr: '...регулювання', 
+	keyval: [
+		{ mileage: 331150 },
+		{ station: 'merefa_auto_service_center', },
+
+	],
+},
+{
+	id: '20261126_2', date: '2026-11-26', title: 'Педаль газу', descr: '...регулювання', 
+	keyval: [
+		{ mileage: 331150 },
+		{ station: 'merefa_auto_service_center', },
+
+	],
+},
+{
+	id: '20261126_1', date: '2026-11-26', title: 'Циліндр зчеплення', descr: '...заміна', 
+	keyval: [
+		{ mileage: 331150 },
+		{ station: 'merefa_auto_service_center', },
+
+	],
+},
+{
+	id: '20261013_speed', date: '2026-10-13', title: 'Трос спідометра', descr: '...заміна', 
 	keyval: [
 		{ mileage: 332550 },
 		{ station: 'merefa_auto_service_center', },
@@ -42,7 +68,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20261013_', date: '2026-10-13', title: 'Зчеплення', descr: '', 
+	id: '20261013_', date: '2026-10-13', title: 'Зчеплення', descr: '...заміна', 
 	keyval: [
 		{ mileage: 332550 },
 		{ station: 'merefa_auto_service_center', },
@@ -54,7 +80,7 @@ const arrList_VW_Passat_B4_AGG = [
 	],
 },
 {
-	id: '20261013_oil', date: '2026-10-13', title: 'Масло КПП', descr: '', 
+	id: '20261013_oil', date: '2026-10-13', title: 'Масло КПП', descr: '...заміна', 
 	keyval: [
 		{ mileage: 332550 },
 		{ station: 'merefa_auto_service_center', },

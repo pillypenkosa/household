@@ -18,6 +18,7 @@ const arrListNavBtns = [
 	[
 		{ id: 'pc' 				, title: 'PC' 				, },
 		{ id: 'electronics' 	, title: 'Електроніка' 		, },
+		{ id: 'phone' 			, title: 'Телефон/планшет' 	, },
 		{ id: 'studio' 			, title: 'Студія' 			, },
 		{ id: 'hh_techno' 		, title: 'Техніка' 			, }, //household appliances
 	],

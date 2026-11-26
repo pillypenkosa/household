@@ -360,6 +360,13 @@ nav.addEventListener( 'click', function( e ) {
 			});
 		}
 
+		if ( elem.dataset.id && elem.dataset.id == 'phone' ) {
+			arrSelected = arrList.filter( k_obj => {
+				if ( k_obj.cat && k_obj.cat.phone ) 
+					return true;
+			});
+		}
+
 		if ( elem.dataset.id && elem.dataset.id == 'studio' ) {
 			arrSelected = arrList.filter( k_obj => {
 				if ( k_obj.cat && k_obj.cat.studio ) 
