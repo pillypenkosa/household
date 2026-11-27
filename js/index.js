@@ -398,6 +398,9 @@ nav.addEventListener( 'click', function( e ) {
 			arrSelected = arrListSelect;
 
 
+		if ( elem.dataset.id && elem.dataset.id == 'apartment' ) 
+			arrSelected = arrListApartment;
+
 
 
 

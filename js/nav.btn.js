@@ -31,6 +31,7 @@ const arrListNavBtns = [
 		{ id: 'shops' 			, title: 'Магазини' 		, },
 		{ id: 'select' 			, title: 'Вибір' 			, },
 		{ id: 'service' 		, title: 'Послуги' 			, },
+		{ id: 'apartment' 		, title: 'Хати' 			, },
 		//{ id: 'other' 			, title: 'Інше' 			, },
 	],
 ];
